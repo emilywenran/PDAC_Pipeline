@@ -1,6 +1,6 @@
 # PDAC Microbiome–Transcriptome Plasticity — GitHub Release Package
 
-This folder is a curated subset of the working project (`/Users/emily/thesis/PDAC/`), selected for public release on GitHub. The original workspace was not modified; everything here is a copy. Selection criteria are documented in `docs/workflows/GITHUB_PUBLICATION_PACKAGE_PLAN.md`. **The submission package is intentionally excluded**, per project instructions.
+This folder is a curated subset of the working project (`~/thesis/PDAC/`), selected for public release on GitHub. The original workspace was not modified; everything here is a copy. Selection criteria are documented in `docs/workflows/GITHUB_PUBLICATION_PACKAGE_PLAN.md`. **The submission package is intentionally excluded**, per project instructions.
 
 ## Project Summary
 
@@ -13,6 +13,8 @@ This folder is a curated subset of the working project (`/Users/emily/thesis/PDA
 ```
 github_release/
 ├── README.md                    # this file
+├── LICENSE                       # MIT
+├── CITATION.cff                  # citation metadata
 ├── config.yaml                   # consolidated locked analysis parameters (primary runs)
 ├── environment.yml               # conda environment (Python + R)
 ├── requirements.txt              # Python dependencies only
@@ -47,7 +49,7 @@ github_release/
 
 ## Before Using This Package
 
-1. **You still need to add**: `LICENSE`, `CITATION.cff`. Choose a license before publishing and add it to the repository root.
+1. **License and citation**: `LICENSE` (MIT) and `CITATION.cff` are included at the repository root. `CITATION.cff` will need its ORCID and publication-status fields updated once the manuscript is submitted.
 2. **Hardcoded local paths inside scripts were left untouched**: roughly 40 scripts in `scripts/python/` and `scripts/R/` contain absolute paths from the original development machine (of the form `/Users/emily/thesis/PDAC/...`). To avoid silently changing script behavior, this release does **not** edit script contents — files were copied as-is. Anyone reproducing the analysis will need to adjust these paths manually (or run scripts from a checkout that mirrors the original project layout — see `run_pipeline.py` below). Documentation, log, and metadata files (non-code) already have local paths sanitized to `~/`.
 3. **What's new in this release layer** (added on top of the existing project files, without modifying any existing script's internal logic):
    - `run_pipeline.py`: a lightweight CLI that lists all phases/scripts with descriptions and dispatches to the underlying phase script via subprocess. It does **not** rewrite any of the 92 existing analysis scripts into standalone CLI tools — those still expect to run from a full project checkout with `02_data/`, `03_processed/`, etc. present (which are intentionally excluded from this release; see below).
@@ -55,7 +57,7 @@ github_release/
    - `environment.yml` / `requirements.txt`: consolidate the actual Python and R packages imported across `scripts/`, so the environment can be rebuilt with `conda env create -f environment.yml`.
    - `demo/run_demo.py`: a genuinely self-contained, one-command demo. It applies the real locked PurIST classifier coefficients (from `reference_data/PDAC_subtype_signatures/PurIST_signatures.tsv`) to a small **synthetic, seeded toy expression matrix** (explicitly labeled as synthetic — not real patient data, since the real GSE172356 matrix is not redistributed in this release). It exists to verify the environment is set up correctly and to illustrate the classifier logic end-to-end in a few seconds, not to reproduce the full validated pipeline.
 4. **Not included**: raw/large sequencing data (`02_data/raw`, `02_data/external`), R package caches (`renv/library`, `renv/cache`), model binary objects (`05_results/models/`), local runtime caches (`.cache/`, `tmp/`, `__pycache__/`), `08_submission/` (submission package, excluded per current instructions), and private review artifacts (`.docx` annotations, archive folders, redundant zip files). See `docs/workflows/GITHUB_PUBLICATION_PACKAGE_PLAN.md`, Section 5, for the full rationale.
-5. **Data/Code Availability and AI-usage disclosure**: the corresponding placeholders in the manuscript are still unfilled. See `docs/workflows/GITHUB_PUBLICATION_PACKAGE_PLAN.md`, Section 7, for recommended wording.
+5. **Data/Code Availability and AI-usage disclosure**: the manuscript's Data Availability, Code Availability, and "Use of AI-Assisted Technologies" sections are filled in and reference this repository (`https://github.com/emilywenran/PDAC_Pipeline`). See `docs/workflows/GITHUB_PUBLICATION_PACKAGE_PLAN.md`, Section 7, for the original recommended wording this was based on.
 6. **Prompt records**: no verbatim user prompts are stored anywhere in the project. `docs/workflows/PROMPT_AND_AGENT_EXECUTION_LOG.md` documents that finding and the closest available substitute (commit history + agent usage logs).
 
 ## Quick Start
@@ -78,6 +80,5 @@ python run_pipeline.py --describe phase3b
 ## Suggested Next Steps
 
 1. Review the contents of this folder to confirm nothing sensitive was inadvertently included.
-2. Add `LICENSE` and `CITATION.cff`.
+2. Fill in the remaining `CITATION.cff` fields (ORCID, publication status) once available.
 3. If you intend to re-run the full pipeline (not just the demo), restore the original project's data layout (`02_data/`, `03_processed/`) and update the hardcoded paths in `scripts/` as needed.
-4. Initialize a git repository from this folder's contents and publish.
