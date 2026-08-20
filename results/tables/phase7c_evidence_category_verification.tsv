@@ -1,0 +1,7 @@
+evidence_category	reported_total	verified_total	is_correct	notes
+ROBUST_ASSOCIATION	9	9	True	Contains 9 genera. All 9 verified as satisfying primary FDR q < 0.05, bootstrap CI excluding zero, and same Spearman direction. Note that 8 of 9 show sign reversal under robust CLR.
+SUGGESTIVE_ASSOCIATION	2	2	True	Contains 2 genera (Staphylococcus, which has q < 0.05 but is flagged as influence-sensitive, and another genus with q between 0.05 and 0.10).
+METHOD_SENSITIVE	67	67	True	Contains 67 genera that show sign reversal or significance loss across preprocessing sensitivities.
+CONTAMINATION_SENSITIVE	21	21	True	Contains 21 genera flagged as high-risk or moderate-risk contaminants or strongly correlated with the total sum proxy.
+NO_SUPPORTED_ASSOCIATION	23	23	True	Contains 23 genera that fail to meet primary or suggestive thresholds.
+TO_VERIFY	0	0	True	Contains 0 genera. No implementation or metadata uncertainties remain.

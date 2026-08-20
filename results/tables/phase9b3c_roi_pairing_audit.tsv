@@ -1,0 +1,7 @@
+cohort_id	check_id	status	evidence	details
+HWANG_GSE202051_NAIVE	patient_is_replicate	PASS	LMM grouped by patient_id	Patient is treated as the independent biological replicate; segments/ROIs are nested.
+HWANG_GSE202051_NAIVE	paired_design_modeled	PASS	(1 | patient_id:ROI_id) in Model A; tumor-minus-stroma in Model C	ROI pairing is correctly preserved via random intercepts or paired contrasts.
+HWANG_GSE202051_NAIVE	cohort_separated	PASS	Analyzed separately in naive model table	Naive cohort analyzed independently of treated cohort.
+HWANG_GSE202051_TREATED	patient_is_replicate	PASS	LMM grouped by patient_id	Patient is treated as the independent biological replicate.
+HWANG_GSE202051_TREATED	paired_design_modeled	PASS	(1 | patient_id:ROI_id) in Model A; tumor-minus-stroma in Model C	ROI pairing is correctly preserved.
+HWANG_GSE202051_TREATED	cohort_separated	PASS	Analyzed separately in treated model table	Treated cohort analyzed independently.

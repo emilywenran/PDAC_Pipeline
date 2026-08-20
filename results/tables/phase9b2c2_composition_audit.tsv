@@ -1,0 +1,136 @@
+feature_name	feature_layer	composition_covariate	coefficient	p_value	q_value	is_composition_sensitive	independent_review_status	notes
+HALLMARK_PROTEIN_SECRETION	Hallmark	endothelial_fraction	-0.0240851707780611	0.137177217051993	0.274354434103987	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+HALLMARK_SPERMATOGENESIS	Hallmark	endothelial_fraction	0.0028234244306698	0.884101334375217	0.884101334375217	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+CTCFL	externally replicated TF	endothelial_fraction	1.06666354297949	0.14447286802675	0.288945736053499	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+IRF3	externally replicated TF	endothelial_fraction	-1.59566659405344	0.0004929568668248	0.0059154824018976	TRUE	PASS	Significant composition effect for endothelial_fraction (q < 0.10).
+JUNB	externally replicated TF	endothelial_fraction	-0.225570333983519	0.532117476796792	0.580491792869228	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+KLF13	externally replicated TF	endothelial_fraction	-0.280749721913609	0.444653169581299	0.533583803497559	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+KLF9	externally replicated TF	endothelial_fraction	1.54848132743909	0.0950270805616596	0.285081241684979	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+MNT	externally replicated TF	endothelial_fraction	0.991300777576606	0.12340652108007	0.288945736053499	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+MXI1	externally replicated TF	endothelial_fraction	-0.509062993715543	0.418442843445225	0.533583803497559	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+SNAI2	externally replicated TF	endothelial_fraction	0.779741851824487	0.198182864531113	0.339742053481908	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+TFAP4	externally replicated TF	endothelial_fraction	0.646713087108242	0.304750881670518	0.457126322505778	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+TP63	externally replicated TF	endothelial_fraction	-1.00364597307515	0.0311992300128858	0.124796920051543	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+ZBTB7A	externally replicated TF	endothelial_fraction	-0.465812956494675	0.604281920390763	0.604281920390763	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+ZNF24	externally replicated TF	endothelial_fraction	1.00848393200324	0.0040443418299308	0.0242660509795852	TRUE	PASS	Significant composition effect for endothelial_fraction (q < 0.10).
+BHLHE40	partially replicated TF	endothelial_fraction	1.33542449728681	0.0272661004916533	0.096017963878249	TRUE	PASS	Significant composition effect for endothelial_fraction (q < 0.10).
+E2F6	partially replicated TF	endothelial_fraction	0.330906009196972	0.274801210182543	0.508552725591733	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+ELF1	partially replicated TF	endothelial_fraction	0.203308788338881	0.573561062751255	0.745629381576631	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+GRHL2	partially replicated TF	endothelial_fraction	-0.602508499044993	0.223382860958948	0.483996198744388	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+KLF1	partially replicated TF	endothelial_fraction	-0.435532330138587	0.375758304817259	0.542761995847151	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+MBD1	partially replicated TF	endothelial_fraction	0.172881765489198	0.723561952599978	0.783858781983309	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+MBD2	partially replicated TF	endothelial_fraction	0.356384048373221	0.0645666775785205	0.167873361704153	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+OTX2	partially replicated TF	endothelial_fraction	0.691901388151408	0.0002042499781015	0.0026552497153198	TRUE	PASS	Significant composition effect for endothelial_fraction (q < 0.10).
+SIX5	partially replicated TF	endothelial_fraction	1.24538916770363	0.0295439888856151	0.096017963878249	TRUE	PASS	Significant composition effect for endothelial_fraction (q < 0.10).
+SNAPC4	partially replicated TF	endothelial_fraction	-0.159800814930725	0.697958400552485	0.783858781983309	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+ZBED1	partially replicated TF	endothelial_fraction	-0.782014054178555	0.0041552434150286	0.0270090821976865	TRUE	PASS	Significant composition effect for endothelial_fraction (q < 0.10).
+ZNF384	partially replicated TF	endothelial_fraction	0.4280219708981	0.312955523441066	0.508552725591733	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+ZNF740	partially replicated TF	endothelial_fraction	0.12834154240628	0.81600029860076	0.81600029860076	FALSE	PASS	No significant composition effect for endothelial_fraction (q >= 0.10).
+HALLMARK_PROTEIN_SECRETION	Hallmark	fibroblast_caf_fraction	0.0106025989940405	0.398230207407394	0.398230207407394	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+HALLMARK_SPERMATOGENESIS	Hallmark	fibroblast_caf_fraction	0.0207909361538405	0.0335989582873536	0.0671979165747071	TRUE	PASS	Significant composition effect for fibroblast_caf_fraction (q < 0.10).
+CTCFL	externally replicated TF	fibroblast_caf_fraction	0.334242457828972	0.438450425184342	0.869661989076846	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+IRF3	externally replicated TF	fibroblast_caf_fraction	1.20195242417797	0.0707476096684319	0.282990438673728	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+JUNB	externally replicated TF	fibroblast_caf_fraction	0.734382687356025	0.0030699720374625	0.0368396644495505	TRUE	PASS	Significant composition effect for fibroblast_caf_fraction (q < 0.10).
+KLF13	externally replicated TF	fibroblast_caf_fraction	-0.284799768330031	0.507302826961493	0.869661989076846	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+KLF9	externally replicated TF	fibroblast_caf_fraction	-0.0939288093427617	0.869637920371916	0.966949629496333	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+MNT	externally replicated TF	fibroblast_caf_fraction	-0.735247729654703	0.0573749564106179	0.282990438673728	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+MXI1	externally replicated TF	fibroblast_caf_fraction	-0.0702038784043521	0.804587222855338	0.966949629496333	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+SNAI2	externally replicated TF	fibroblast_caf_fraction	-0.657815604654487	0.204290754179475	0.576478511687611	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+TFAP4	externally replicated TF	fibroblast_caf_fraction	0.013296028262908	0.966949629496333	0.966949629496333	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+TP63	externally replicated TF	fibroblast_caf_fraction	0.11461945259683	0.773654129648349	0.966949629496333	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+ZBTB7A	externally replicated TF	fibroblast_caf_fraction	0.0527658124895137	0.927995926016033	0.966949629496333	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+ZNF24	externally replicated TF	fibroblast_caf_fraction	-0.434100731402646	0.240199379869838	0.576478511687611	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+BHLHE40	partially replicated TF	fibroblast_caf_fraction	-0.940759609855115	0.0147842632856433	0.0960977113566816	TRUE	PASS	Significant composition effect for fibroblast_caf_fraction (q < 0.10).
+E2F6	partially replicated TF	fibroblast_caf_fraction	-0.547881422341154	0.123427890778378	0.401140645029729	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+ELF1	partially replicated TF	fibroblast_caf_fraction	0.0305272691089193	0.915909120235334	0.989043836493594	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+GRHL2	partially replicated TF	fibroblast_caf_fraction	-0.295920298958195	0.439218030114065	0.815690627354692	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+KLF1	partially replicated TF	fibroblast_caf_fraction	1.09532969686752	0.0063050603747109	0.0819657848712423	TRUE	PASS	Significant composition effect for fibroblast_caf_fraction (q < 0.10).
+MBD1	partially replicated TF	fibroblast_caf_fraction	-0.0044528737684482	0.989043836493594	0.989043836493594	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+MBD2	partially replicated TF	fibroblast_caf_fraction	-0.0958991311390544	0.731136012014526	0.864069832380803	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+OTX2	partially replicated TF	fibroblast_caf_fraction	0.133692218098127	0.354673444258315	0.768459129226349	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+SIX5	partially replicated TF	fibroblast_caf_fraction	-0.290797319878337	0.344362169943217	0.768459129226349	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+SNAPC4	partially replicated TF	fibroblast_caf_fraction	0.107610341666203	0.666560409833979	0.864069832380803	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+ZBED1	partially replicated TF	fibroblast_caf_fraction	0.534456966318812	0.118738466841912	0.401140645029729	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+ZNF384	partially replicated TF	fibroblast_caf_fraction	-0.176767259145536	0.518921562948449	0.843247539791229	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+ZNF740	partially replicated TF	fibroblast_caf_fraction	0.119852687627816	0.710671862879349	0.864069832380803	FALSE	PASS	No significant composition effect for fibroblast_caf_fraction (q >= 0.10).
+HALLMARK_PROTEIN_SECRETION	Hallmark	malignant_epithelial_fraction	0.0186959797855909	0.0126072365310235	0.0252144730620469	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+HALLMARK_SPERMATOGENESIS	Hallmark	malignant_epithelial_fraction	-0.0127054393375221	0.186643251139894	0.186643251139894	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+CTCFL	externally replicated TF	malignant_epithelial_fraction	-0.218910033165818	0.431255326016833	0.535021860286924	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+IRF3	externally replicated TF	malignant_epithelial_fraction	0.428578287924993	0.141353746975424	0.339248992741018	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+JUNB	externally replicated TF	malignant_epithelial_fraction	0.183978898605443	0.362177862416954	0.535021860286924	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+KLF13	externally replicated TF	malignant_epithelial_fraction	0.187757607476595	0.291751922684805	0.516442734694681	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+KLF9	externally replicated TF	malignant_epithelial_fraction	-0.18710820299499	0.648820139380479	0.648820139380479	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+MNT	externally replicated TF	malignant_epithelial_fraction	-0.651245309518774	0.0055181420251235	0.0220725681004944	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+MXI1	externally replicated TF	malignant_epithelial_fraction	0.180453261521036	0.301258261905231	0.516442734694681	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+SNAI2	externally replicated TF	malignant_epithelial_fraction	-0.705683488868783	0.0115400483991265	0.0346201451973795	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+TFAP4	externally replicated TF	malignant_epithelial_fraction	-0.100800658265407	0.623546833505512	0.648820139380479	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+TP63	externally replicated TF	malignant_epithelial_fraction	0.735050621830442	0.0003997915755425	0.0023987494532554	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+ZBTB7A	externally replicated TF	malignant_epithelial_fraction	-0.307129231416969	0.445851550239103	0.535021860286924	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+ZNF24	externally replicated TF	malignant_epithelial_fraction	-0.743560222246794	3.00351861376629e-06	3.60422233651954e-05	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+BHLHE40	partially replicated TF	malignant_epithelial_fraction	-0.867230915230444	0.0104063268626598	0.0421722764472653	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+E2F6	partially replicated TF	malignant_epithelial_fraction	-0.407516987197271	0.0160199014832247	0.0421722764472653	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+ELF1	partially replicated TF	malignant_epithelial_fraction	0.192130309100841	0.256792706110515	0.370922797715188	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+GRHL2	partially replicated TF	malignant_epithelial_fraction	0.88835665746882	0.0030377100535011	0.0394902306955153	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+KLF1	partially replicated TF	malignant_epithelial_fraction	0.478744129565099	0.116234590339177	0.207654077831334	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+MBD1	partially replicated TF	malignant_epithelial_fraction	0.0149825793664832	0.94490878273324	0.94490878273324	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+MBD2	partially replicated TF	malignant_epithelial_fraction	0.242977649857067	0.127787124819282	0.207654077831334	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+OTX2	partially replicated TF	malignant_epithelial_fraction	-0.27838971307974	0.0165774945657873	0.0421722764472653	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+SIX5	partially replicated TF	malignant_epithelial_fraction	-0.638908101503237	0.0194641275910455	0.0421722764472653	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+SNAPC4	partially replicated TF	malignant_epithelial_fraction	-0.0902563210176367	0.629572711285911	0.730680000343789	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+ZBED1	partially replicated TF	malignant_epithelial_fraction	0.404291367473791	0.010997453639777	0.0421722764472653	TRUE	PASS	Significant composition effect for malignant_epithelial_fraction (q < 0.10).
+ZNF384	partially replicated TF	malignant_epithelial_fraction	-0.0946308777065242	0.60000262204461	0.730680000343789	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+ZNF740	partially replicated TF	malignant_epithelial_fraction	-0.0714510021910643	0.67447384647119	0.730680000343789	FALSE	PASS	No significant composition effect for malignant_epithelial_fraction (q >= 0.10).
+HALLMARK_PROTEIN_SECRETION	Hallmark	myeloid_fraction	0.0264926373157705	0.347793249951818	0.695586499903636	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+HALLMARK_SPERMATOGENESIS	Hallmark	myeloid_fraction	0.0329691914563177	0.717951896122007	0.717951896122007	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+CTCFL	externally replicated TF	myeloid_fraction	-1.65015834488753	0.0142780054700213	0.057112021880085	TRUE	PASS	Significant composition effect for myeloid_fraction (q < 0.10).
+IRF3	externally replicated TF	myeloid_fraction	3.02721379898977	0.117938088612146	0.235876177224293	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+JUNB	externally replicated TF	myeloid_fraction	0.134998765778888	0.786417370862339	0.786417370862339	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+KLF13	externally replicated TF	myeloid_fraction	0.74134163848168	0.420659822848742	0.4589016249259	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+KLF9	externally replicated TF	myeloid_fraction	-3.07435847696426	0.0014897547808093	0.0089385286848563	TRUE	PASS	Significant composition effect for myeloid_fraction (q < 0.10).
+MNT	externally replicated TF	myeloid_fraction	-0.685120316972856	0.254074971218791	0.338766628291721	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+MXI1	externally replicated TF	myeloid_fraction	1.12084539856183	0.105713677116072	0.235876177224293	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+SNAI2	externally replicated TF	myeloid_fraction	0.76821976642943	0.39936547353311	0.4589016249259	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+TFAP4	externally replicated TF	myeloid_fraction	-2.07798756170835	0.0007775728707931	0.0089385286848563	TRUE	PASS	Significant composition effect for myeloid_fraction (q < 0.10).
+TP63	externally replicated TF	myeloid_fraction	1.42080460563071	0.0200352894799964	0.0601058684399891	TRUE	PASS	Significant composition effect for myeloid_fraction (q < 0.10).
+ZBTB7A	externally replicated TF	myeloid_fraction	2.11990772424751	0.164243140819846	0.246364711229769	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+ZNF24	externally replicated TF	myeloid_fraction	-1.26525011524124	0.146411299078946	0.246364711229769	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+BHLHE40	partially replicated TF	myeloid_fraction	-2.66343996560685	0.0532250643634751	0.230641945575059	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+E2F6	partially replicated TF	myeloid_fraction	-0.395781388413301	0.608677337130794	0.65940044855836	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+ELF1	partially replicated TF	myeloid_fraction	-0.438811782497437	0.477430569659323	0.62065974055712	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+GRHL2	partially replicated TF	myeloid_fraction	-0.990967278794028	0.318647304568962	0.541405044001323	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+KLF1	partially replicated TF	myeloid_fraction	0.600606870369642	0.741300615266848	0.741300615266848	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+MBD1	partially replicated TF	myeloid_fraction	0.746732005716168	0.122592404469098	0.398425314524569	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+MBD2	partially replicated TF	myeloid_fraction	-0.475846252057502	0.333172334770045	0.541405044001323	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+OTX2	partially replicated TF	myeloid_fraction	-0.278180459004364	0.319965938993278	0.541405044001323	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+SIX5	partially replicated TF	myeloid_fraction	-2.29105072024642	0.0249794604354888	0.230641945575059	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+SNAPC4	partially replicated TF	myeloid_fraction	-0.502108152311243	0.465633810137742	0.62065974055712	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+ZBED1	partially replicated TF	myeloid_fraction	1.26528026911525	0.220284796508512	0.541405044001323	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+ZNF384	partially replicated TF	myeloid_fraction	-1.43533222742503	0.0383424314233484	0.230641945575059	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+ZNF740	partially replicated TF	myeloid_fraction	-0.330502539656615	0.561635065410755	0.65940044855836	FALSE	PASS	No significant composition effect for myeloid_fraction (q >= 0.10).
+HALLMARK_PROTEIN_SECRETION	Hallmark	lymphoid_fraction	-0.0239766300122417	0.0397852020541406	0.0795704041082812	TRUE	PASS	Significant composition effect for lymphoid_fraction (q < 0.10).
+HALLMARK_SPERMATOGENESIS	Hallmark	lymphoid_fraction	-3.73610956464826e-05	0.998588891649686	0.998588891649686	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+CTCFL	externally replicated TF	lymphoid_fraction	-0.68621818339635	0.0931703529913677	0.223608847179283	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+IRF3	externally replicated TF	lymphoid_fraction	1.91139711667849	0.0010914240006468	0.0073988943724599	TRUE	PASS	Significant composition effect for lymphoid_fraction (q < 0.10).
+JUNB	externally replicated TF	lymphoid_fraction	-0.458241696153658	0.217721616408849	0.373237056700885	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+KLF13	externally replicated TF	lymphoid_fraction	-0.11658015667161	0.726657975157315	0.963726513798711	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+KLF9	externally replicated TF	lymphoid_fraction	-1.17956197923488	0.0012331490620766	0.0073988943724599	TRUE	PASS	Significant composition effect for lymphoid_fraction (q < 0.10).
+MNT	externally replicated TF	lymphoid_fraction	-0.0909383797423338	0.883415970982152	0.963726513798711	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+MXI1	externally replicated TF	lymphoid_fraction	0.528664729058102	0.0299975517540817	0.089992655262245	TRUE	PASS	Significant composition effect for lymphoid_fraction (q < 0.10).
+SNAI2	externally replicated TF	lymphoid_fraction	0.218207530434748	0.711063524842055	0.963726513798711	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+TFAP4	externally replicated TF	lymphoid_fraction	-0.755464331641557	0.0038278554668142	0.0153114218672569	TRUE	PASS	Significant composition effect for lymphoid_fraction (q < 0.10).
+TP63	externally replicated TF	lymphoid_fraction	0.132036770772919	0.814431422689207	0.963726513798711	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+ZBTB7A	externally replicated TF	lymphoid_fraction	0.743679836732088	0.216239897681257	0.373237056700885	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+ZNF24	externally replicated TF	lymphoid_fraction	0.00209490027793	0.996883343914545	0.996883343914545	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+BHLHE40	partially replicated TF	lymphoid_fraction	-0.364061536024866	0.640846139913789	0.757363619898114	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+E2F6	partially replicated TF	lymphoid_fraction	0.0846293813090708	0.822253735733406	0.822253735733406	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+ELF1	partially replicated TF	lymphoid_fraction	-0.0895810709212491	0.800266874675038	0.822253735733406	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+GRHL2	partially replicated TF	lymphoid_fraction	-1.03672238847222	0.0327460409904508	0.106424633218965	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+KLF1	partially replicated TF	lymphoid_fraction	0.516921993177726	0.4341740461214	0.627140288842022	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+MBD1	partially replicated TF	lymphoid_fraction	-0.647361759734025	0.0067918223562299	0.0294312302103296	TRUE	PASS	Significant composition effect for lymphoid_fraction (q < 0.10).
+MBD2	partially replicated TF	lymphoid_fraction	-0.587296234185169	0.0526518132177192	0.13689471436607	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+OTX2	partially replicated TF	lymphoid_fraction	-0.134009037130179	0.391586543830503	0.627140288842022	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+SIX5	partially replicated TF	lymphoid_fraction	-0.613847974094601	0.177938758587523	0.330457694519686	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+SNAPC4	partially replicated TF	lymphoid_fraction	0.751847621295917	0.0025932686566728	0.0205706858203629	TRUE	PASS	Significant composition effect for lymphoid_fraction (q < 0.10).
+ZBED1	partially replicated TF	lymphoid_fraction	1.03677511960564	0.0031647208954404	0.0205706858203629	TRUE	PASS	Significant composition effect for lymphoid_fraction (q < 0.10).
+ZNF384	partially replicated TF	lymphoid_fraction	-0.362803536886774	0.0800922223417914	0.173533148407215	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).
+ZNF740	partially replicated TF	lymphoid_fraction	0.148007098243	0.589581762758376	0.757363619898114	FALSE	PASS	No significant composition effect for lymphoid_fraction (q >= 0.10).

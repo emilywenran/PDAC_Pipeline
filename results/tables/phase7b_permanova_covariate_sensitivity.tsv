@@ -1,0 +1,9 @@
+test	term	n	df_term	df_residual	sum_squares_term	sum_squares_residual	pseudo_F	r_squared	p_value	permutations	random_seed	sums_of_squares	inference	model	analysis_role
+PERMANOVA	moffitt50_z	62	1	59	431.9477513037938	10765.905599996124	2.3671875152734954	0.03583805012010148	0.0007	9999	2026	marginal	two-sided_permutation_location_test	Model_1	covariate_sensitivity
+PERMANOVA	log10_matrix_total_abundance_proxy	62	1	59	643.3403246327089	10765.905599996124	3.5256745287961184	0.053376971471380076	0.0001	9999	2026	marginal	two-sided_permutation_location_test	Model_1	covariate_sensitivity
+PERMANOVA	moffitt50_z	62	1	59	409.9170812762899	11168.920356045155	2.165393522768829	0.03401019882502711	0.002	9999	2026	marginal	two-sided_permutation_location_test	Model_3P	covariate_sensitivity
+PERMANOVA	inferred_tumor_purity	62	1	59	240.3255685836781	11168.920356045155	1.2695236508480017	0.019939448106968523	0.1404	9999	2026	marginal	two-sided_permutation_location_test	Model_3P	covariate_sensitivity
+PERMANOVA	moffitt50_z	62	1	59	459.88077343821755	11146.328342298604	2.4342514233937824	0.0381556106218931	0.0005	9999	2026	marginal	two-sided_permutation_location_test	Model_3I	covariate_sensitivity
+PERMANOVA	immune_score	62	1	59	262.9175823302278	11146.328342298604	1.391681357404237	0.021813873239450415	0.0794	9999	2026	marginal	two-sided_permutation_location_test	Model_3I	covariate_sensitivity
+PERMANOVA	moffitt50_z	62	1	59	390.7882343913727	11233.847175641122	2.0524140544732967	0.032423107397112114	0.003	9999	2026	marginal	two-sided_permutation_location_test	Model_3S	covariate_sensitivity
+PERMANOVA	stromal_score	62	1	59	175.39874898770955	11233.847175641122	0.9211916477477153	0.014552568310058533	0.5678	9999	2026	marginal	two-sided_permutation_location_test	Model_3S	covariate_sensitivity

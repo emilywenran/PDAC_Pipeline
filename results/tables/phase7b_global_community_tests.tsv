@@ -1,0 +1,2 @@
+test	term	n	df_term	df_residual	sum_squares_term	sum_squares_residual	pseudo_F	r_squared	p_value	permutations	random_seed	sums_of_squares	inference	analysis_role
+PERMANOVA	moffitt50_z	62	1	60	643.5234045126338	11409.245924628836	3.384220528318056	0.05339216133147988	0.0001	9999	2026	single_predictor	two-sided_permutation_location_test	primary

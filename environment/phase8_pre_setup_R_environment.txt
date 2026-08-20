@@ -1,0 +1,12 @@
+Phase 8A.5 pre-setup R environment
+timestamp	2026-07-02 17:19:51 CST
+R_version	R version 4.5.3 (2026-03-11)
+platform	aarch64-apple-darwin20
+arch	aarch64
+library_paths	~/thesis/PDAC/07_envs/R_bootstrap_lib | /Library/Frameworks/R.framework/Versions/4.5-arm64/Resources/library
+Bioconductor_version	3.22
+compiler_CC	clang -arch arm64 -std=gnu2x
+compiler_CXX	clang++ -arch arm64 -std=gnu++17
+compiler_FC	/opt/gfortran/bin/gfortran -arch arm64
+shell_gfortran	NOT_FOUND_IN_PATH
+clang_version	Apple clang version 21.0.0 (clang-2100.1.1.101) | Target: arm64-apple-darwin25.5.0 | Thread model: posix | InstalledDir: /Library/Developer/CommandLineTools/usr/bin

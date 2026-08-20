@@ -1,0 +1,4 @@
+technical_metadata	n	spearman_rho_total_abundance	spearman_p_total_abundance	analysis_scope
+bases	62	0.4515373574072675	0.00022990173241766723	technical_metadata_only
+spots	62	0.4560701065196042	0.00019509079151488977	technical_metadata_only
+file_size_numeric	62	0.4240890433381179	0.0005925900816651853	technical_metadata_only

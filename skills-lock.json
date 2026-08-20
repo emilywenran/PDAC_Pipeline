@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "statistical-analysis": {
+      "source": "K-Dense-AI/scientific-agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/statistical-analysis/SKILL.md",
+      "computedHash": "0447a62cc900ae54e111b285d9281bba9f43b2b3d079e025e19415e22e3b3af9"
+    }
+  }
+}

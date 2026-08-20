@@ -1,0 +1,13 @@
+finding_id	severity	manuscript_section	issue_type	sentence_or_claim	evidence_source	required_action	status
+FINDING_01	NONE	2.4	Microbial causality overstatement	Ochrobactrum causality	phase7c_review_findings.tsv	None required (PASS)	PASS
+FINDING_02	NONE	2.4	Microbial localization overstatement	Ochrobactrum localization	phase8c_review_findings.tsv	None required (PASS)	PASS
+FINDING_03	NONE	2.4	Physical interaction overstatement	Physical interaction	phase8c_review_findings.tsv	None required (PASS)	PASS
+FINDING_04	NONE	2.3	Full spatial-validation overstatement	Basal-classical axis	phase9b3c2_review_findings.tsv	None required (PASS)	PASS
+FINDING_05	NONE	2.5, 2.6	CTCFL/BORIS over-promotion	CTCFL priority	phase10c2_review_findings.tsv	None required (PASS)	PASS
+FINDING_06	NONE	2.6	Literature rescue of unsupported targets	Literature rescue	phase10c2_review_findings.tsv	None required (PASS)	PASS
+FINDING_07	NONE	2.3, 2.5	Hidden null or partial findings	Null features	phase9b1c2_review_findings.tsv	None required (PASS)	PASS
+FINDING_08	NONE	2.4	Missing rCLR sensitivity and contamination limitations	rCLR sensitivity	phase7c_review_findings.tsv	None required (PASS)	PASS
+FINDING_09	NONE	2.3	Missing Moncada exploratory-status limitation	Moncada results	phase9b3c2_review_findings.tsv	None required (PASS)	PASS
+FINDING_10	NONE	All	Inconsistent claim-to-evidence mapping	Claim evidence mapping	phase11b_claim_to_text_trace.tsv	None required (PASS)	PASS
+FINDING_11	NONE	2.6	Unsupported therapeutic or clinical claims	Therapeutic claims	phase10c2_review_findings.tsv	None required (PASS)	PASS
+FINDING_12	NONE	1, 2	Missing limitations in Abstract, Results, or Discussion	Limitations	PHASE11B_MANUSCRIPT_DRAFT.md	None required (PASS)	PASS

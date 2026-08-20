@@ -1,0 +1,3 @@
+feature_name	dataset_id	evidence_category	basis
+HALLMARK_PROTEIN_SECRETION	HWANG_GSE202051_NAIVE	PARTIAL_SPATIAL_SUPPORT	patient-aware Hwang naive Model B; Model A/C reported separately
+HALLMARK_SPERMATOGENESIS	HWANG_GSE202051_NAIVE	NOT_SUPPORTED_SPATIALLY	prespecified comparator

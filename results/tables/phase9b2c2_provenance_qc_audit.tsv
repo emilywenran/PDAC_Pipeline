@@ -1,0 +1,2 @@
+dataset_id	canonical_dataset_id	accession	BioProject	publication	expected_patients	observed_patients	expected_cells	observed_cells	gse111672_aliasing	fastq_bam_downloaded	provenance_audit_status	reviewer_notes
+PENG_CRA001160	PENG_CRA001160	CRA001160	PRJCA001063	Peng et al. 2019	35	35	57530	57530	none	none	PASS	Provenance, sample counts, and cell counts are fully verified against GSA and project records. Scope is restricted to PENG_CRA001160 only; no supplementary datasets were analyzed.

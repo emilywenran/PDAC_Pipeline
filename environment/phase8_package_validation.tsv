@@ -1,0 +1,21 @@
+package	version	source	required_for	installed	load_test	capability_test	status	notes
+decoupleR	2.16.0	Bioconductor	TF/pathway activity via decoupleR	TRUE	PASS	PASS	READY	progeny_activity=PASS; tf_activity=PASS
+progeny	1.32.0	Bioconductor	PROGENy pathway activity	TRUE	PASS	PASS	READY	progeny_activity=PASS
+dorothea	1.22.0	Bioconductor	DoRothEA regulon loading	TRUE	PASS	PASS	READY	dorothea_abc=PASS
+viper	1.44.0	Bioconductor	VIPER TF activity	TRUE	PASS	PASS	READY	tf_activity=PASS
+WGCNA	1.74	CRAN	WGCNA network construction	TRUE	PASS	PASS	READY	wgcna_network=PASS
+GSVA	2.4.9	Bioconductor	Hallmark ssGSEA/GSVA scoring	TRUE	PASS	PASS	READY	hallmark_scores=PASS
+msigdbr	26.1.0	CRAN	MSigDB Hallmark retrieval	TRUE	PASS	PASS	READY	msigdbr_hallmark=PASS
+limma	3.66.0	Bioconductor	limma association models	TRUE	PASS	PASS	READY	limma_models=PASS
+edgeR	4.8.2	Bioconductor	RNA-seq differential-expression support package	TRUE	PASS	NOT_REQUIRED_DIRECTLY	READY_WITH_LIMITATIONS	
+matrixStats	1.5.0	CRAN	MAD/row statistics	TRUE	PASS	NOT_REQUIRED_DIRECTLY	READY_WITH_LIMITATIONS	
+dynamicTreeCut	1.63.1	CRAN	WGCNA module cutting	TRUE	PASS	PASS	READY	wgcna_network=PASS
+fastcluster	1.3.0	CRAN	WGCNA clustering acceleration	TRUE	PASS	NOT_REQUIRED_DIRECTLY	READY_WITH_LIMITATIONS	
+clusterProfiler	4.18.4	Bioconductor	secondary pathway annotation	TRUE	PASS	NOT_REQUIRED_DIRECTLY	READY_WITH_LIMITATIONS	
+ReactomePA	1.54.0	Bioconductor	secondary Reactome pathway support	TRUE	PASS	NOT_REQUIRED_DIRECTLY	READY_WITH_LIMITATIONS	
+fgsea	1.36.2	Bioconductor	gene-set enrichment support	TRUE	PASS	NOT_REQUIRED_DIRECTLY	READY_WITH_LIMITATIONS	
+tidyverse	2.0.0	CRAN	data handling/plots	TRUE	PASS	NOT_REQUIRED_DIRECTLY	READY_WITH_LIMITATIONS	
+data.table	1.18.4	CRAN	fast table I/O	TRUE	PASS	NOT_REQUIRED_DIRECTLY	READY_WITH_LIMITATIONS	
+BiocParallel	1.44.0	Bioconductor	Bioconductor parallel backend	TRUE	PASS	NOT_REQUIRED_DIRECTLY	READY_WITH_LIMITATIONS	
+sandwich	3.1.1	CRAN	HC3 robust covariance	TRUE	PASS	PASS	READY	hc3=PASS
+lmtest	0.9.40	CRAN	robust model coefficient tests	TRUE	PASS	PASS	READY	hc3=PASS

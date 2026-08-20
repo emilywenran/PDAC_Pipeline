@@ -1,0 +1,7 @@
+control_type	expected_execution	reported_status	actual_execution	audit_status	details
+within-section coordinate permutation	1000 iterations	EXECUTED	NOT_EXECUTED	FAIL	Hardcoded placeholders with p=1.0 and stat=0.0 were used instead of real calculations.
+size-matched random gene set	100 sets	EXECUTED	NOT_EXECUTED	FAIL	Hardcoded placeholders with p=1.0 and stat=0.0 were used.
+expression-matched random gene set	100 sets	EXECUTED	NOT_EXECUTED	FAIL	Hardcoded placeholders with p=1.0 and stat=0.0 were used.
+label permutation	1000 iterations	EXECUTED	NOT_EXECUTED	FAIL	Hardcoded placeholders with p=1.0 and stat=0.0 were used.
+leakage check	Logical verification	EXECUTED	NOT_EXECUTED	FAIL	Hardcoded placeholders with p=1.0 and stat=0.0 were used.
+unrelated Hallmark pathway	Compare 5 pathways	EXECUTED	PARTIALLY_EXECUTED	FAIL	Observed statistic calculated for 2/5 pathways, but empirical p-values are hardcoded to 1.0; no permutations run.

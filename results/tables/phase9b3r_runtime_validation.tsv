@@ -1,0 +1,7 @@
+check_id	status	details
+eligibility_before_modeling	PASS	ineligible features receive eligibility-gate rows only
+nonconverged_inference_na	PASS	nonconverged rows have NA inferential fields and q values
+negative_controls_real_iterations	PASS	iteration-level null distributions saved
+small_sample_method_documented	PASS	locked statsmodels asymptotic z method reported explicitly
+evidence_programmatic	PASS	category derived from output tables and controls
+moncada_exploratory_only	PASS	Moncada not used as formal replication

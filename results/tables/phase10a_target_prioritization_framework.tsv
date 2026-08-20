@@ -1,0 +1,9 @@
+criteria	description	data_source	weight	threshold
+druggability	Availability of binding pockets or existing targeted therapies	External Databases (e.g. OpenTargets, DGIdb)	High	Must be tractable
+genetic_dependency	Essentiality in PDAC cell lines (e.g. CRISPR/RNAi screens)	DepMap	High	Score < -0.5
+tumor_versus_normal_selectivity	Differential expression in tumor vs adjacent normal tissue	GTEx, TCGA	Medium	FDR < 0.05, log2FC > 1
+pathway_position	Role in pathway hierarchy (upstream regulator vs downstream effector)	Reactome, KEGG	Medium	Hub or upstream regulator preferred
+cell_type_specificity	Expression restricted to malignant or specific stromal cells	Single-cell RNA-seq	High	Significant enrichment in target cell type
+external_replication	Validated in independent patient cohorts across layers	Phase 9 validations	Critical	MULTI_LAYER_SUPPORTED or PARTIALLY_REPLICATED
+safety_essentiality_concerns	Potential off-target effects or pan-essentiality in normal tissues	DepMap, literature	High	Not broadly pan-essential
+existing_compounds	Availability of FDA-approved or clinical-stage inhibitors	ChEMBL, ClinicalTrials.gov	Medium	Presence accelerates translation

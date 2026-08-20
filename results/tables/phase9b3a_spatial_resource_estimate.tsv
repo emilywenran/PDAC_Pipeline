@@ -1,0 +1,6 @@
+canonical_dataset_id	accession	data_type	patient_count	section_count	expected_spatial_units	estimated_download_size	disk_requirement	peak_ram	expected_runtime	required_packages	macbook_practical	hpc_recommended	notes
+HWANG_GSE202051_NAIVE	GSE202051	GeoMx DSP WTA	18	18	256 segments (paired tumor-stroma)	~1.2 GB	~5 GB	16 GB	~20 minutes	R (decoupleR, GSVA, limma, StandR), Python (pandas, statsmodels)	yes	no	ROIs are selected regions. Processing is relatively lightweight because data is not at single-cell density.
+HWANG_GSE202051_TREATED	GSE202051	GeoMx DSP WTA	25	25	352 segments (paired tumor-stroma)	~1.5 GB	~6 GB	16 GB	~25 minutes	R (decoupleR, GSVA, limma, StandR), Python (pandas, statsmodels)	yes	no	Treatment-sensitivity cohort.
+MONCADA_GSE111672	GSE111672	Microarray Spatial	2	6	2248 spots	~80 MB	~500 MB	8 GB	~10 minutes	R (decoupleR, GSVA, Seurat), Python (pandas, statsmodels)	yes	no	First-generation ST data. Lightweight.
+GSE274103	GSE274103	10x Visium FFPE	5	5	~20000 spots	~150 MB	~1 GB	16 GB	~15 minutes	R (Seurat, decoupleR, GSVA)	yes	no	Not authorized for current execution.
+GSE272362	GSE272362	10x Visium	10	13	~40000 spots	~500 MB	~2 GB	16 GB	~20 minutes	R (Seurat, decoupleR, GSVA)	yes	no	Not authorized for current execution.

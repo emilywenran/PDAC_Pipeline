@@ -1,0 +1,9 @@
+analysis_id	preferred_K	preferred_K_basis	primary_K3_PAC	primary_K3_silhouette	primary_K3_mean_jaccard
+STAB_CSY_FEAT_RESAMP	2	lowest prespecified multi-metric rank across PAC, silhouette, Jaccard, and prediction strength among viable cluster sizes	0.326811210999471	0.236295238174164	0.563089763231491
+STAB_CSY_IMPUTED	2	lowest prespecified multi-metric rank across PAC, silhouette, Jaccard, and prediction strength among viable cluster sizes	0.189317821258593	0.236295238174164	0.562870237376499
+STAB_CSY_LOG2	2	lowest prespecified multi-metric rank across PAC, silhouette, Jaccard, and prediction strength among viable cluster sizes	0.255949233209942	0.275505555873542	0.505174762274962
+STAB_CSY_OUTLIER_EXCL	2	lowest prespecified multi-metric rank across PAC, silhouette, Jaccard, and prediction strength among viable cluster sizes	0.17362371445856	0.245208993688262	0.573582189310681
+STAB_CSY_PRIMARY	2	lowest prespecified multi-metric rank across PAC, silhouette, Jaccard, and prediction strength among viable cluster sizes	0.195663670015865	0.236295238174164	0.558997994207924
+STAB_HVG_OUTLIER_EXCL	3	lowest prespecified multi-metric rank across PAC, silhouette, Jaccard, and prediction strength among viable cluster sizes	0.235934664246824	0.155479048375569	0.54154781749109
+STAB_HVG_VAR_FILTER	2	lowest prespecified multi-metric rank across PAC, silhouette, Jaccard, and prediction strength among viable cluster sizes	0.280803807509254	0.166582811312802	0.549143261163633
+STAB_UNSUP_HVG	4	lowest prespecified multi-metric rank across PAC, silhouette, Jaccard, and prediction strength among viable cluster sizes	0.34690639873083	0.163709399979098	0.517111961450628

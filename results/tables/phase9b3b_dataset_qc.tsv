@@ -1,0 +1,4 @@
+dataset_id	accession	publication	patient_count	section_count	ROI_count	segment_count	spot_count	matrix_orientation	expression_value_type	treatment_status_verified	passes_locked_qc
+HWANG_GSE202051_NAIVE	GSE202051/GSE199102	Hwang et al. 2022/2023; DOI 10.1038/s41588-023-01411-z	13	13	127	373	0	genes_by_segments	Q3-normalized GeoMx WTA counts, log2 transformed for scoring	Untreated	True
+HWANG_GSE202051_TREATED	GSE202051/GSE199102	Hwang et al. 2022/2023; DOI 10.1038/s41588-023-01411-z	7	7	67	197	0	genes_by_segments	Q3-normalized GeoMx WTA counts, log2 transformed for scoring	Treated	True
+MONCADA_GSE111672	GSE111672	Moncada et al. 2020; DOI 10.1038/s41587-019-0392-8	2	6	0	0	3119	genes_by_spots	processed ST counts, log2 transformed for scoring	treatment-naive	True

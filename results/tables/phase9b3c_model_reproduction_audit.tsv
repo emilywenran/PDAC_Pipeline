@@ -1,0 +1,7 @@
+cohort_id	model_id	feature_name	term	coefficient	p_value	q_value	converged	audit_status	notes
+HWANG_GSE202051_NAIVE	HWANG_GSE202051_NAIVE_MODEL_A	HALLMARK_PROTEIN_SECRETION	is_tumor	0.047949	9.82e-53	5.89e-52	True	VALID	Highly significant tumor-compartment enrichment.
+HWANG_GSE202051_NAIVE	HWANG_GSE202051_NAIVE_MODEL_B	HALLMARK_PROTEIN_SECRETION	Moffitt50_contrast	0.003517	0.270	0.324	True	VALID	Non-significant (null) axis association within tumor segments.
+HWANG_GSE202051_NAIVE	HWANG_GSE202051_NAIVE_MODEL_C	HALLMARK_PROTEIN_SECRETION	Moffitt50_contrast	0.002433	0.462	0.462	True	VALID	Non-significant (null) paired tumor-minus-stroma contrast.
+HWANG_GSE202051_TREATED	HWANG_GSE202051_TREATED_MODEL_A	HALLMARK_PROTEIN_SECRETION	is_tumor	0.047854	1.28e-21	7.66e-21	True	VALID	Significant tumor enrichment in treated cohort.
+HWANG_GSE202051_TREATED	HWANG_GSE202051_TREATED_MODEL_B	HALLMARK_PROTEIN_SECRETION	Moffitt50_contrast	-0.001665	0.782	0.938	True	VALID	Non-significant axis association in treated tumor segments.
+HWANG_GSE202051_TREATED	HWANG_GSE202051_TREATED_MODEL_C	HALLMARK_PROTEIN_SECRETION	Moffitt50_contrast	-0.018656	0.000423	0.000943	False	INVALID	Model did not converge; q-value must be excluded.

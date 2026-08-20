@@ -1,0 +1,6 @@
+package_item	current_file_path	status	required_action	notes
+Main Manuscript	04_analysis/11_manuscript/PHASE11E_FULL_MANUSCRIPT_LANGUAGE_EDITED.md	Draft	FORMAT_FOR_SUBMISSION	Needs to be converted to final format (Word/PDF)
+Figures	None	Missing	GENERATE_HIGH_RES_FIGURES	High resolution figures must be generated
+Supplementary Tables	None	Missing	COMPILE_TABLES	Need to compile final supplementary tables
+Bibliography	None	Missing	COMPILE_BIBLIOGRAPHY	Need to compile references/bibliography
+Cover Letter	None	Missing	DRAFT_COVER_LETTER	Needs to be drafted

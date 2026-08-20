@@ -1,0 +1,4 @@
+cohort	intercept_included	intercept_value	pairs_present	pairs_expected	score_direction_correct	no_cohort_specific_refitting	probability_min	probability_max	probability_sd	universal_classification	validation_status
+"TCGA_PAAD"	TRUE	-6.815	8	8	TRUE	TRUE	0.001095990682655	0.991233391480979	0.279266675215124	FALSE	"PASS"
+"GSE71729"	TRUE	-6.815	8	8	TRUE	TRUE	0.001095990682655	0.991233391480979	0.323430445554404	FALSE	"PASS"
+"GSE62452"	TRUE	-6.815	7	8	TRUE	TRUE	0.001095990682655	0.969943032920314	0.259814538856161	FALSE	"PASS"

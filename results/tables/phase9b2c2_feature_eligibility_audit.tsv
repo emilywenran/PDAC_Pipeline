@@ -1,0 +1,33 @@
+feature_name	feature_layer	expected_genes_or_targets	detected_genes_or_targets	coverage_fraction	eligibility	exclusion_reason	independent_review_status	notes
+HALLMARK_PROTEIN_SECRETION	Hallmark	48	47	0.979166666666667	ELIGIBLE		PASS	Eligible: coverage 97.92% is above the 80% threshold.
+HALLMARK_SPERMATOGENESIS	Hallmark	45	37	0.822222222222222	ELIGIBLE		PASS	Eligible: coverage 82.22% is above the 80% threshold.
+MEblack	WGCNA_module	270	68	0.251851851851852	INELIGIBLE	INSUFFICIENT_SINGLE_CELL_DATA_LOW_COVERAGE_LT_0.80	PASS	Excluded: coverage 25.19% is below the 80% threshold.
+MEblue	WGCNA_module	1691	582	0.344175044352454	INELIGIBLE	INSUFFICIENT_SINGLE_CELL_DATA_LOW_COVERAGE_LT_0.80	PASS	Excluded: coverage 34.42% is below the 80% threshold.
+MEgreen	WGCNA_module	515	199	0.386407766990291	INELIGIBLE	INSUFFICIENT_SINGLE_CELL_DATA_LOW_COVERAGE_LT_0.80	PASS	Excluded: coverage 38.64% is below the 80% threshold.
+MEtan	WGCNA_module	103	50	0.485436893203884	INELIGIBLE	INSUFFICIENT_SINGLE_CELL_DATA_LOW_COVERAGE_LT_0.80	PASS	Excluded: coverage 48.54% is below the 80% threshold.
+MEgreenyellow	WGCNA_module	166	53	0.319277108433735	INELIGIBLE	INSUFFICIENT_SINGLE_CELL_DATA_LOW_COVERAGE_LT_0.80	PASS	Excluded: coverage 31.93% is below the 80% threshold.
+BHLHE40	TF_regulon	58	56	0.96551724137931	ELIGIBLE		PASS	Eligible: coverage 96.55% is above the 80% threshold.
+CTCFL	TF_regulon	54	50	0.925925925925926	ELIGIBLE		PASS	Eligible: coverage 92.59% is above the 80% threshold.
+E2F6	TF_regulon	69	67	0.971014492753623	ELIGIBLE		PASS	Eligible: coverage 97.10% is above the 80% threshold.
+ELF1	TF_regulon	51	48	0.941176470588235	ELIGIBLE		PASS	Eligible: coverage 94.12% is above the 80% threshold.
+GRHL2	TF_regulon	79	74	0.936708860759494	ELIGIBLE		PASS	Eligible: coverage 93.67% is above the 80% threshold.
+IRF3	TF_regulon	74	65	0.878378378378378	ELIGIBLE		PASS	Eligible: coverage 87.84% is above the 80% threshold.
+JUNB	TF_regulon	52	52	1.0	ELIGIBLE		PASS	Eligible: coverage 100.00% is above the 80% threshold.
+KLF1	TF_regulon	51	46	0.901960784313725	ELIGIBLE		PASS	Eligible: coverage 90.20% is above the 80% threshold.
+KLF13	TF_regulon	31	30	0.967741935483871	ELIGIBLE		PASS	Eligible: coverage 96.77% is above the 80% threshold.
+KLF9	TF_regulon	68	66	0.970588235294118	ELIGIBLE		PASS	Eligible: coverage 97.06% is above the 80% threshold.
+MBD1	TF_regulon	44	43	0.977272727272727	ELIGIBLE		PASS	Eligible: coverage 97.73% is above the 80% threshold.
+MBD2	TF_regulon	32	28	0.875	ELIGIBLE		PASS	Eligible: coverage 87.50% is above the 80% threshold.
+MNT	TF_regulon	56	54	0.964285714285714	ELIGIBLE		PASS	Eligible: coverage 96.43% is above the 80% threshold.
+MXI1	TF_regulon	77	71	0.922077922077922	ELIGIBLE		PASS	Eligible: coverage 92.21% is above the 80% threshold.
+OTX2	TF_regulon	24	23	0.958333333333333	ELIGIBLE		PASS	Eligible: coverage 95.83% is above the 80% threshold.
+SIX5	TF_regulon	25	24	0.96	ELIGIBLE		PASS	Eligible: coverage 96.00% is above the 80% threshold.
+SNAI2	TF_regulon	66	62	0.939393939393939	ELIGIBLE		PASS	Eligible: coverage 93.94% is above the 80% threshold.
+SNAPC4	TF_regulon	30	30	1.0	ELIGIBLE		PASS	Eligible: coverage 100.00% is above the 80% threshold.
+TFAP4	TF_regulon	40	39	0.975	ELIGIBLE		PASS	Eligible: coverage 97.50% is above the 80% threshold.
+TP63	TF_regulon	19	19	1.0	ELIGIBLE		PASS	Eligible: coverage 100.00% is above the 80% threshold.
+ZBED1	TF_regulon	22	22	1.0	ELIGIBLE		PASS	Eligible: coverage 100.00% is above the 80% threshold.
+ZBTB7A	TF_regulon	90	86	0.955555555555556	ELIGIBLE		PASS	Eligible: coverage 95.56% is above the 80% threshold.
+ZNF24	TF_regulon	20	20	1.0	ELIGIBLE		PASS	Eligible: coverage 100.00% is above the 80% threshold.
+ZNF384	TF_regulon	66	63	0.954545454545455	ELIGIBLE		PASS	Eligible: coverage 95.45% is above the 80% threshold.
+ZNF740	TF_regulon	38	36	0.947368421052632	ELIGIBLE		PASS	Eligible: coverage 94.74% is above the 80% threshold.

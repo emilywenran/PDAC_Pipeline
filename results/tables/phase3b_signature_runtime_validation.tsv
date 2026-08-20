@@ -1,0 +1,22 @@
+method_name	validation_item	expected	observed	status	notes
+GSE172356_original	signature_md5	1fa46a3ee02166880bc58639972199c2	1fa46a3ee02166880bc58639972199c2	PASS	
+Moffitt	signature_md5	fa1ec8714ff73e152014d9d564ee222d	fa1ec8714ff73e152014d9d564ee222d	PASS	
+PurIST	signature_md5	066d543aaef11b82a755d15e408edf1f	066d543aaef11b82a755d15e408edf1f	PASS	
+GSE172356_original	inventory_verification_status	VERIFIED	VERIFIED	PASS	
+Moffitt	inventory_verification_status	VERIFIED	VERIFIED	PASS	
+PurIST	inventory_verification_status	VERIFIED	VERIFIED	PASS	
+GSE172356_original	primary_method_not_TO_VERIFY	primary method VERIFIED	VERIFIED	PASS	Exploratory TO_VERIFY methods are not executed: Bailey,Chan-Seng-Yue
+GSE172356_original	signature_row_count	100 rows; 94 present genes	100 rows; 94 present genes	PASS	
+GSE172356_original	mapped_gene_presence	0 active mapped genes missing from expression matrix	0	PASS	
+GSE172356_original	required_expression_scale	DESeq2 size-factor normalized counts, untransformed	03_processed/expression/GSE172356_expression_filtered_normalized.tsv.gz	PASS	Log2 matrix is used only for locked sensitivity analysis.
+GSE172356_original	assignment_procedure	Pearson distance, average linkage, dendrogram slices 17/23/22	implemented constants 17/23/22	PASS	
+Moffitt	signature_row_count	50 rows; 49 active after LEMD1 exclusion	50 rows; 49 active	PASS	
+Moffitt	symbol_mapping	{'CTSL2': 'CTSV', 'ANXA8L2': 'ANXA8', 'ATAD4': 'FLAD1', 'LOC400573': 'TMEM238L'}	{'CTSL2': 'CTSV', 'ANXA8L2': 'ANXA8', 'ATAD4': 'FLAD1', 'LOC400573': 'TMEM238L'}	PASS	
+Moffitt	mapped_gene_presence	0 active mapped genes missing from expression matrix	0	PASS	
+Moffitt	required_expression_scale	DESeq2 size-factor normalized counts, untransformed	03_processed/expression/GSE172356_expression_filtered_normalized.tsv.gz	PASS	
+Moffitt	assignment_procedure	Pearson distance, average linkage, dendrogram slices 27/17/18	implemented constants 27/17/18	PASS	
+PurIST	signature_pair_count	8 pairs; 16 genes	8 pairs; 16 genes	PASS	
+PurIST	pair_direction_coefficients	[('GPR87', 'REG4', 1.994), ('KRT6A', 'ANXA10', 2.031), ('BCAR3', 'GATA6', 1.618), ('PTGES', 'CLDN18', 0.922), ('ITGA3', 'LGALS4', 1.059), ('C16orf74', 'DDC', 0.929), ('S100A2', 'SLC40A1', 2.505), ('KRT5', 'CLRN3', 0.485)]	[('GPR87', 'REG4', 1.994), ('KRT6A', 'ANXA10', 2.031), ('BCAR3', 'GATA6', 1.618), ('PTGES', 'CLDN18', 0.922), ('ITGA3', 'LGALS4', 1.059), ('C16orf74', 'DDC', 0.929), ('S100A2', 'SLC40A1', 2.505), ('KRT5', 'CLRN3', 0.485)]	PASS	All directions must be gene_A > gene_B.
+PurIST	intercept_and_cutoff	intercept=-6.815; cutoff=0.5	intercept=-6.815; cutoff=0.5	PASS	
+PurIST	mapped_gene_presence	0 PurIST genes missing from expression matrix	0	PASS	
+PurIST	required_expression_scale	rank-based on untransformed normalized expression; no centering/scaling	03_processed/expression/GSE172356_expression_filtered_normalized.tsv.gz	PASS	

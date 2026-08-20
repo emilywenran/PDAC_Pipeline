@@ -1,0 +1,7 @@
+variable_1	variable_2	n	spearman_rho	p_value	correlation_warning	notes
+stromal_score	immune_score	62	0.597945153735741	2.8707837041037e-07	none	Descriptive host-covariate correlation only; not tested against microbiome features.
+stromal_score	estimate_score	62	0.859686233033668	3.71940666252966e-19	HIGH_CORRELATION	Descriptive host-covariate correlation only; not tested against microbiome features.
+stromal_score	inferred_tumor_purity	62	-0.859686233033668	3.71940666252961e-19	HIGH_CORRELATION	Descriptive host-covariate correlation only; not tested against microbiome features.
+immune_score	estimate_score	62	0.891264385182947	2.83775310736937e-22	HIGH_CORRELATION	Descriptive host-covariate correlation only; not tested against microbiome features.
+immune_score	inferred_tumor_purity	62	-0.891264385182947	2.83775310736913e-22	HIGH_CORRELATION	Descriptive host-covariate correlation only; not tested against microbiome features.
+estimate_score	inferred_tumor_purity	62	-1	0	SEVERE_COLLINEARITY	Descriptive host-covariate correlation only; not tested against microbiome features.

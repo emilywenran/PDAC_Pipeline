@@ -1,0 +1,7 @@
+dataset_id	patient_id	section_id	spot_count	replicate_unit	coefficient	p_value	empirical_p_coordinate_permutation	direction	evidence_claim	q_value
+MONCADA_GSE111672	PDAC-A	GSM3036911	956	patient	-0.015414720730600483	1.4669928837857606e-16	0.000999000999000999	negative	exploratory_cross_platform_spatial_consistency_only	8.801957302714564e-16
+MONCADA_GSE111672	PDAC-A	GSM4100721_PDAC-A-st2	316	patient	-0.013569400171425043	0.06732084105699251	0.058941058941058944	negative	exploratory_cross_platform_spatial_consistency_only	0.10098126158548877
+MONCADA_GSE111672	PDAC-A	GSM4100722_PDAC-A-st3	288	patient	0.00036268822387880775	0.8861932766718192	0.8891108891108891	positive	exploratory_cross_platform_spatial_consistency_only	0.8861932766718192
+MONCADA_GSE111672	PDAC-B	GSM3405534_PDAC-B-ST1	996	patient	-0.003381947863955374	0.026538352599968455	0.03296703296703297	negative	exploratory_cross_platform_spatial_consistency_only	0.05307670519993691
+MONCADA_GSE111672	PDAC-B	GSM4100723_PDAC-B-st2	321	patient	-0.01881338570714793	4.681015879967315e-10	0.000999000999000999	negative	exploratory_cross_platform_spatial_consistency_only	1.4043047639901947e-09
+MONCADA_GSE111672	PDAC-B	GSM4100724_PDAC-B-st3	242	patient	-0.0047519720334924295	0.10862498268916154	0.1008991008991009	negative	exploratory_cross_platform_spatial_consistency_only	0.13034997922699385

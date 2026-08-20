@@ -1,0 +1,10 @@
+Figure_ID	Type	Title	Content_Description	Supporting_Phase
+Figure_1	Main	Tumor Microbiome and Host State	PERMANOVA plot, 9 robust genera forest plots, rCLR sensitivity annotation	Phase 7C
+Figure_2	Main	Host Biological Mechanisms	Ochrobactrum mechanism network, pathway and TF activity heatmaps	Phase 8C
+Figure_3	Main	External Bulk Validation	Replicated TFs (12) and partially replicated pathways (7) across cohorts	Phase 9B1C2
+Figure_4	Main	Single-Cell Cellular Sources	Malignant vs non-malignant compartment expression, composition sensitivity (CTCFL)	Phase 9B2C2
+Figure_5	Main	Spatial Compartment Support	HALLMARK_PROTEIN_SECRETION spatial mapping, Model A enrichment, PARTIAL_SPATIAL_SUPPORT	Phase 9B3C2
+Table_1	Main	Target Prioritization	Final ranked target list following Phase 10C2 approved ranking	Phase 10C2
+Figure_S1	Supp	Methodological Controls	Moffitt 50 vs 49 sensitivity, negative control distributions	Phase 9B1C2, Phase 9B2C2
+Figure_S2	Supp	Unsupported Features	Features failing bulk external validation (e.g. HALLMARK_SPERMATOGENESIS, WGCNA modules)	Phase 9B1C2
+Figure_S3	Supp	Exploratory Spatial Validation	Moncada cohort spatial findings (directional inconsistency)	Phase 9B3C2

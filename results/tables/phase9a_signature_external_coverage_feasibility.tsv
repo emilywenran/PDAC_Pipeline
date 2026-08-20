@@ -1,0 +1,12 @@
+signature_name	discovery_gene_count	TCGA_PAAD_coverage	GSE71729_coverage	GSE62452_coverage	GSE111672_coverage	coverage_threshold	feasibility_status	notes
+Moffitt50	50	100.0% (50/50)	96.0% (48/50)	98.0% (49/50)	100.0% (50/50)	80.0%	FEASIBLE	Includes classical and basal poles. GSE71729 microarray is missing 2 genes due to custom probes (e.g. LEMD1 missing in some sub-arrays), handled by signature-mean rescaling.
+HALLMARK_PROTEIN_SECRETION	96	100.0% (96/96)	93.8% (90/96)	95.8% (92/96)	99.0% (95/96)	80.0%	FEASIBLE	Excellent coverage across all platforms. Missing genes in microarray handled by ssGSEA internal rescaling.
+HALLMARK_SPERMATOGENESIS	135	100.0% (135/135)	91.1% (123/135)	94.1% (127/135)	97.8% (132/135)	80.0%	FEASIBLE	Sufficient coverage across platforms. Broad coverage ensures robust ssGSEA scoring.
+DoRothEA TF regulons (34 TFs)	2200	99.2%	88.5%	91.3%	96.4%	75.0%	FEASIBLE	34 TF regulon target lists mapped. Agilent microarray lacks some targets, but decoupleR VIPER handles missing targets dynamically with minimal bias.
+WGCNA MEblack module	270	100.0% (270/270)	92.6% (250/270)	94.8% (256/270)	98.5% (266/270)	80.0%	FEASIBLE	Transferred using module-eigengene-like standardized mean score of available genes.
+WGCNA MEblue module	1691	100.0% (1691/1691)	91.4% (1546/1691)	93.3% (1578/1691)	97.1% (1642/1691)	80.0%	FEASIBLE	Large module signature; highly robust to missing genes.
+WGCNA MEgreen module	515	100.0% (515/515)	93.0% (479/515)	95.1% (490/515)	97.7% (503/515)	80.0%	FEASIBLE	Strong coverage; standard scaling will be applied to the mean.
+WGCNA MEgreenyellow module	166	100.0% (166/166)	89.8% (149/166)	92.2% (153/166)	96.4% (160/166)	80.0%	FEASIBLE	Smaller module; coverage remains well above the 80% threshold.
+WGCNA MEpurple module	200	100.0% (200/200)	91.0% (182/200)	93.5% (187/200)	98.0% (196/200)	80.0%	FEASIBLE	Locked module gene list transferred cleanly.
+WGCNA MEred module	354	100.0% (354/354)	92.1% (326/354)	94.4% (334/354)	97.5% (345/354)	80.0%	FEASIBLE	Transferred using standardized average rank metric.
+WGCNA MEtan module	103	100.0% (103/103)	87.4% (90/103)	91.3% (94/103)	95.1% (98/103)	80.0%	FEASIBLE	Smallest co-expression module; coverage remains feasible on Agilent microarrays.

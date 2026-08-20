@@ -1,0 +1,5 @@
+citation_number	original_reference_key	original_problem	repaired_reference_key	repaired_title	repaired_doi_or_pmid	repair_action	claim_support_status	verification_status	notes
+[3]	Bear2020	PMID 32673551 mismatch	Bear2020	Challenges and opportunities for pancreatic cancer immunotherapy	10.1016/j.ccell.2020.08.004 / 32946773	Updated PMID to 32946773 in mapping table	SUPPORTED	PASS	None
+[6]	Nejman2020	PMID 32471947 mismatch	Nejman2020	The human tumor microbiome is composed of tumor type-specific intracellular bacteria	10.1126/science.aay9189 / 32467386	Updated PMID to 32467386 in mapping table	SUPPORTED	PASS	None
+[7]	Geller2017	PMID 28916614 mismatch	Geller2017	Potential role of intratumor bacteria in mediating tumor resistance to the chemotherapeutic drug gemcitabine	10.1126/science.aah5043 / 28912244	Updated PMID to 28912244 in mapping table	SUPPORTED	PASS	None
+[13]	Boehm2015	Fabricated/mismatched reference	N/A	N/A	N/A	Removed from manuscript and bib file	PROJECT_INTERNAL_METHOD	REMOVED_OR_INTERNAL	Claim relies on Behan2019 [12] which was retained

@@ -1,0 +1,26 @@
+TF	regulon_targets_expected	targets_present	coverage_fraction	eligibility	dataset_id	confidence_levels	scoring_method	activity_calculation_status
+BHLHE40	58	56	0.96551724137931	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+CTCFL	54	50	0.925925925925926	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+E2F6	69	67	0.971014492753623	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+ELF1	51	48	0.941176470588235	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+GRHL2	79	74	0.936708860759494	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+IRF3	74	65	0.878378378378378	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+JUNB	52	52	1	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+KLF1	51	46	0.901960784313725	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+KLF13	31	30	0.967741935483871	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+KLF9	68	66	0.970588235294118	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+MBD1	44	43	0.977272727272727	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+MBD2	32	28	0.875	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+MNT	56	54	0.964285714285714	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+MXI1	77	71	0.922077922077922	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+OTX2	24	23	0.958333333333333	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+SIX5	25	24	0.96	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+SNAI2	66	62	0.939393939393939	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+SNAPC4	30	30	1	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+TFAP4	40	39	0.975	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+TP63	19	19	1	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+ZBED1	22	22	1	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+ZBTB7A	90	86	0.955555555555556	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+ZNF24	20	20	1	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+ZNF384	66	63	0.954545454545455	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED
+ZNF740	38	36	0.947368421052632	ELIGIBLE	PENG_CRA001160	A;B;C	decoupleR::run_viper DoRothEA regulons; no TF expression proxy	EXECUTED

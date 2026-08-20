@@ -1,0 +1,131 @@
+# PDAC Microbiome-Transcriptome Plasticity Project — Primary Analysis Configuration
+#
+# This file consolidates the PRIMARY / LOCKED parameters for the project's main analyses,
+# extracted directly from the corresponding tables in metadata/*_parameter_inventory.tsv.
+# It is a human-readable summary, not a replacement for those tables: every sensitivity-analysis
+# variant, full parameter grid, and per-cohort detail lives in the original TSVs under metadata/.
+# Values below were read from the repository's own locked records, not invented for this file.
+
+project:
+  name: "PDAC Microbiome-Transcriptome Plasticity"
+  primary_expression_accession: "GSE172356"      # GEO — host bulk RNA-seq
+  primary_microbiome_accession: "PRJNA719915"     # NCBI BioProject — tumor shotgun metagenomics
+  cohort_size: 62                                  # patients with paired RNA-seq + microbiome data
+  global_random_seed: 2026                          # used consistently across locked analyses
+
+# ---------------------------------------------------------------------------
+# Subtype reproduction and continuous basal-classical axis (Phase 3-5)
+# Source: metadata/subtype_method_inventory.tsv, metadata/subtype_stability_parameter_inventory.tsv,
+#         metadata/continuous_axis_parameter_inventory.tsv
+# ---------------------------------------------------------------------------
+subtype_analysis:
+  primary_signature: "CSY_94_gene_signature"        # Chan-Seng-Yue 94-gene subset (Guo et al. 2021 method)
+  clustering:
+    distance: "pearson"
+    linkage: "average"
+  stability:
+    candidate_k: [2, 3, 4, 5, 6]
+    resampling_fraction: 0.8
+    resampling_iterations: 1000
+  continuous_axis:
+    scoring_method_primary: "signature_mean"          # AXIS_MOFFITT50_PRIMARY
+    scoring_method_secondary: "singscore"             # AXIS_SECONDARY (rank-based)
+    gene_set_primary: "Moffitt_50_gene_axis.tsv"       # 25 basal-like + 25 classical, includes LEMD1
+    gene_set_sensitivity: "Moffitt_49_gene_axis_no_LEMD1.tsv"  # 24 basal-like + 25 classical, excludes LEMD1
+    transformation: "log2_plus_one"
+    centering: "row_median"
+    scaling: "row_sd"
+    reference_definition: "reference_anchored"
+    bootstrap_iterations: 1000
+    permutation_iterations: 1000
+  purist_classifier:
+    # Coefficients and intercept as locked in reference_data/PDAC_subtype_signatures/PurIST_signatures.tsv
+    # and confirmed in analysis_reports (Phase 9B1R correction).
+    intercept_beta0: -6.815
+    n_gene_pairs: 8
+    signature_file: "reference_data/PDAC_subtype_signatures/PurIST_signatures.tsv"
+
+# ---------------------------------------------------------------------------
+# Microbiome preprocessing (Phase 6) — primary analysis MICRO_PRIMARY
+# Source: metadata/microbiome_preprocessing_parameter_inventory.tsv
+# ---------------------------------------------------------------------------
+microbiome_preprocessing:
+  abundance_unit: "Bracken_normalized_counts"
+  prevalence_threshold: 0.2          # detected in >=20% of the 62 samples
+  abundance_threshold: 0.0            # detection defined as abundance > 0
+  pseudocount: 0.889651                # cohort-specific fixed value (half the minimum non-zero value);
+                                        # NOT transferable to external cohorts
+  transformation: "centered_log_ratio"
+  distance_metric: "aitchison"
+  contaminant_policy: "keep_all_flagged"   # contaminant flags retained as sensitivity-only exclusions
+  sample_exclusion_policy: "retain_all"
+  retained_genera: 122
+  retained_samples: 62
+
+# ---------------------------------------------------------------------------
+# Microbiome-host association testing (Phase 7)
+# Source: metadata/microbiome_association_parameter_inventory.tsv
+# ---------------------------------------------------------------------------
+microbiome_host_association:
+  primary_model: "PERMANOVA"                 # community-level, ASSOC_GLOBAL_PRIMARY
+  permanova_permutations: 9999
+  genus_level_model: "OLS"
+  robust_se: "HC3"
+  multiple_testing_correction: "BH_FDR"
+  fdr_threshold: 0.05
+  covariate_hierarchy:
+    - "Model 0: primary (no covariates)"
+    - "Model 1: technical sensitivity"
+    - "Model 2: clinical sensitivity (blocked — 100% missing clinical data)"
+    - "Model 3P/3I/3S: ESTIMATE purity / immune / stromal sensitivity (added in Phase 7A.5)"
+
+# ---------------------------------------------------------------------------
+# Spatial transcriptomic validation (Phase 9B3)
+# Source: metadata/phase9b3_spatial_parameter_inventory.tsv
+# ---------------------------------------------------------------------------
+spatial_validation:
+  primary_feature: "HALLMARK_PROTEIN_SECRETION"
+  contextual_axis: "Moffitt50_contrast"
+  cohorts:
+    hwang_naive:
+      accession: "GSE202051"
+      role: "primary_spatial"
+      models: ["Model A: compartment LMM", "Model B: tumor-only LMM", "Model C: paired contrast LMM"]
+    hwang_treated:
+      accession: "GSE202051"
+      role: "treatment_sensitivity"
+    moncada:
+      accession: "GSE111672"
+      role: "exploratory_cross_platform_spatial_consistency"
+      note: "n=2 patients — precludes formal population-level replication"
+  negative_controls:
+    - "1000 label permutations"
+    - "5 unrelated Hallmark pathways"
+    - "100 size-matched random gene sets"
+  multiple_testing_families:
+    - "primary_hypotheses"
+    - "secondary_localizations"
+    - "spatial_autocorrelations"
+
+# ---------------------------------------------------------------------------
+# Cross-layer evidence synthesis and target prioritisation (Phase 10)
+# Source: metadata/phase10a_evidence_synthesis_parameter_inventory.tsv
+# ---------------------------------------------------------------------------
+target_prioritisation:
+  external_databases: ["opentargets-database", "gtex-database", "chembl-database"]
+  unavailable_query_label: "NOT_RUN_DATABASE_UNAVAILABLE"   # applied when a live API query could not be reproduced locally
+  composition_penalty: true   # penalises candidates whose signal is explained by cell-type composition alone
+
+# ---------------------------------------------------------------------------
+# Paths (relative to this file's directory — the github_release root)
+# ---------------------------------------------------------------------------
+paths:
+  metadata_dir: "metadata/"
+  reference_data_dir: "reference_data/"
+  scripts_python_dir: "scripts/python/"
+  scripts_r_dir: "scripts/R/"
+  results_tables_dir: "results/tables/"
+  results_figures_dir: "results/figures/"
+  analysis_reports_dir: "analysis_reports/"
+  decision_log: "docs/planning/DECISION_LOG.md"
+  skill_usage_log: "ai_usage/SKILL_USAGE_LOG.tsv"

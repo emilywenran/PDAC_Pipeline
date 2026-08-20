@@ -1,0 +1,17 @@
+Claim_ID	Claim_Description	Evidence_Category	Supporting_Phase	Restrictions
+CLAIM_01	Global community-level microbiome association with host state	Supported	Phase 7C	Do not state causally
+CLAIM_02	9 robust genera associated with host state	Supported	Phase 7C	8 are rCLR sensitive, Herbaspirillum is contamination-sensitive
+CLAIM_03	43 robust host mechanisms linked to Ochrobactrum	Supported	Phase 8C	Do not state causally
+CLAIM_04	12 TF activities externally replicated in bulk	Supported	Phase 9B1C2	Must not use TF expression proxies
+CLAIM_05	HALLMARK_PROTEIN_SECRETION is malignant-cell intrinsic and malignant-compartment supported	Supported	Phase 9B2C2, Phase 9B3C2	Basal-classical axis association not spatially replicated
+CLAIM_06	Spatial validation of basal-classical axis	Partially Supported	Phase 9B3C2	Must state as PARTIAL_SPATIAL_SUPPORT
+CLAIM_07	7 pathways/modules partially replicated in bulk	Partially Supported	Phase 9B1C2	Only replicated in TCGA_PAAD
+CLAIM_08	13 TF activities partially replicated in bulk	Partially Supported	Phase 9B1C2	
+CLAIM_09	HALLMARK_SPERMATOGENESIS bulk external replication	Unsupported	Phase 9B1C2	Direction reversed
+CLAIM_10	MEred and MEpurple WGCNA module bulk replication	Unsupported	Phase 9B1C2	Not replicated
+CLAIM_11	9 TF activities bulk replication	Unsupported	Phase 9B1C2	Not replicated
+CLAIM_12	WGCNA module single-cell support	Unsupported	Phase 9B2C2	Insufficient single-cell data (<80% coverage)
+CLAIM_13	HALLMARK_SPERMATOGENESIS spatial support	Unsupported	Phase 9B3C2	Insufficient spatial data (<80% coverage)
+CLAIM_14	Moncada spatial cohort findings	Exploratory	Phase 9B3C2	Only 1/6 sections positive, 5/6 negative/non-significant
+CLAIM_15	Target prioritization	Supported	Phase 10C2	Follow Phase 10B-R ranking only
+CLAIM_16	CTCFL/BORIS prioritization	Unsupported	Phase 10C2	Not prioritized due to cell composition sensitivity

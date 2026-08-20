@@ -1,0 +1,8 @@
+evidence_category	reported_total	verified_total	is_correct	notes
+ROBUST_HOST_MECHANISM	43	43	True	Contains 43 features associated with Ochrobactrum (34 TFs, 2 Hallmark pathways, 7 WGCNA modules). Verified as satisfying all primary and sensitivity criteria under locked Phase 8A rules.
+TRANSFORMATION_SENSITIVE_MECHANISM	273	273	True	Contains 273 features that are significant in primary CLR but lose significance or show sign reversal under rCLR. All associations for the other 8 primary taxa fall under this or composition/sample sensitive categories.
+COMPOSITION_SENSITIVE_MECHANISM	20	20	True	Contains 20 features that lose significance (P >= 0.05) or show sign change when adjusted for tumor purity, immune, or stromal scores.
+EXPLORATORY_HOST_MECHANISM	470	470	True	Contains 470 features with nominal significance (P < 0.05, q >= 0.05) in primary model.
+NO_SUPPORTED_MECHANISM	1894	1894	True	Contains 1894 features failing to meet primary or exploratory thresholds.
+SAMPLE_SENSITIVE_MECHANISM	0	0	True	No features were classified solely as sample sensitive without also falling into other sensitivity categories.
+TO_VERIFY	0	0	True	No items marked as TO_VERIFY. Validation script passed all checks.

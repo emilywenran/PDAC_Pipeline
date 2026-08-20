@@ -1,0 +1,18 @@
+software	executable path	version	environment name	status	notes
+git	/usr/bin/git	git version 2.50.1 (Apple Git-155)	base	available	
+python	/opt/anaconda3/bin/python	Python 3.13.9	base	available	
+pip	/opt/anaconda3/bin/pip	pip 25.3 from /opt/anaconda3/lib/python3.13/site-packages/pip (python 3.13)	base	available	
+conda	/opt/anaconda3/bin/conda	conda 26.1.1	base	available	
+mamba			base	unavailable	Not found on PATH.
+R	/usr/local/bin/R	R version 4.5.3 (2026-03-11) -- "Reassured Reassurer"	base	available	
+Rscript	/usr/local/bin/Rscript	Rscript (R) version 4.5.3 (2026-03-11)	base	available	
+curl	/opt/anaconda3/bin/curl	curl 8.16.0 (Darwin) libcurl/8.16.0 OpenSSL/3.6.2 zlib/1.3.1 zstd/1.5.7 libidn2/2.3.8 libssh2/1.11.1 nghttp2/1.67.1	base	available	
+wget	/opt/anaconda3/bin/wget	GNU Wget 1.25.0 built on darwin20.0.0.	base	available	
+aria2c			base	unavailable	Not found on PATH.
+fasterq-dump			base	unavailable	Not found on PATH.
+prefetch			base	unavailable	Not found on PATH.
+esearch	/opt/anaconda3/bin/esearch	--version unsupported; command is present	base	available	NCBI EDirect executable found, but --version returned an unsupported option error.
+efetch	/opt/anaconda3/bin/efetch	--version unsupported; command is present	base	available	NCBI EDirect executable found, but --version returned an unsupported option error.
+git-lfs			base	unavailable	Not found on PATH.
+snakemake	/opt/anaconda3/bin/snakemake	9.16.3	base	available	
+nextflow			base	unavailable	Not found on PATH.

@@ -1,0 +1,20 @@
+feature_name	penalty_type	penalty_applied	penalty_points	locked_rule_source	reason
+HALLMARK_PROTEIN_SECRETION	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+HALLMARK_SPERMATOGENESIS	cell_type_specificity	TRUE	-2	05_results/tables/phase10a_cross_layer_evidence_inventory.tsv	CELL_COMPOSITION_EXPLAINED is not treated as true cell-type specificity.
+HALLMARK_SPERMATOGENESIS	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+MEblack	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+MEblue	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+MEgreen	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+MEtan	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+MEgreenyellow	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+MEpurple	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+MEred	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+BHLHE40	cell_type_specificity	TRUE	-2	05_results/tables/phase10a_cross_layer_evidence_inventory.tsv	CELL_COMPOSITION_EXPLAINED is not treated as true cell-type specificity.
+BHLHE40	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+CTCFL	cell_type_specificity	TRUE	-2	05_results/tables/phase10a_cross_layer_evidence_inventory.tsv	CELL_COMPOSITION_EXPLAINED is not treated as true cell-type specificity.
+CTCFL	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+Ochrobactrum	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+Staphylococcus	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+Lysobacter	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+Brevundimonas	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.
+Paraburkholderia	literature_rescue	FALSE	0	01_metadata/phase10a_evidence_synthesis_parameter_inventory.tsv	Literature support cannot add points or override weak/composition-sensitive evidence.

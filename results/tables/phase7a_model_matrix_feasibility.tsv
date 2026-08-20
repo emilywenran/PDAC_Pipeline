@@ -1,0 +1,21 @@
+outcome	available_patients	missing_covariates	categorical_level_sizes	model_degrees_of_freedom	model_permitted	reason_if_not_permitted
+Moffitt50 basal-classical contrast - Model 0	62	None	N/A	2	Yes	N/A
+Moffitt50 basal-classical contrast - Model 1	62	None	N/A	3	Yes	N/A
+Moffitt50 basal-classical contrast - Model 2	0	age, sex, stage	N/A	N/A	No	Insufficient complete patient data (0 complete cases, which is less than the required minimum of 50)
+basal/classical coactivation score - Model 0	62	None	N/A	2	Yes	N/A
+basal/classical coactivation score - Model 1	62	None	N/A	3	Yes	N/A
+basal/classical coactivation score - Model 2	0	age, sex, stage	N/A	N/A	No	Insufficient complete patient data (0 complete cases, which is less than the required minimum of 50)
+Moffitt49 no-LEMD1 contrast - Model 0	62	None	N/A	2	Yes	N/A
+Moffitt49 no-LEMD1 contrast - Model 1	62	None	N/A	3	Yes	N/A
+Moffitt49 no-LEMD1 contrast - Model 2	0	age, sex, stage	N/A	N/A	No	Insufficient complete patient data (0 complete cases, which is less than the required minimum of 50)
+singscore basal-classical contrast - Model 0	62	None	N/A	2	Yes	N/A
+singscore basal-classical contrast - Model 1	62	None	N/A	3	Yes	N/A
+singscore basal-classical contrast - Model 2	0	age, sex, stage	N/A	N/A	No	Insufficient complete patient data (0 complete cases, which is less than the required minimum of 50)
+PurIST basal probability - Model 0	62	None	N/A	2	Yes	N/A
+PurIST basal probability - Model 1	62	None	N/A	3	Yes	N/A
+PurIST basal probability - Model 2	0	age, sex, stage	N/A	N/A	No	Insufficient complete patient data (0 complete cases, which is less than the required minimum of 50)
+Phase 4B assignment entropy - Model 0	62	None	N/A	2	Yes	N/A
+Phase 4B assignment entropy - Model 1	62	None	N/A	3	Yes	N/A
+Phase 4B assignment entropy - Model 2	0	age, sex, stage	N/A	N/A	No	Insufficient complete patient data (0 complete cases, which is less than the required minimum of 50)
+public Basal / Hybrid / Classical labels - PERMANOVA	62	None	Basal: 17, Hybrid: 23, Classical: 22	2	Yes	N/A
+public Basal / Hybrid / Classical labels - Kruskal-Wallis	62	None	Basal: 17, Hybrid: 23, Classical: 22	2	Yes	N/A

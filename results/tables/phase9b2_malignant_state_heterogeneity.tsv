@@ -1,0 +1,25 @@
+dataset_id	patient_id	malignant_cells_pseudobulk_available	malignant_moffitt50_contrast	malignant_moffitt49_no_LEMD1_contrast	purist_probability	within_patient_score_variance	basal_classical_coexistence	hybrid_explanation
+PENG_CRA001160	T10	TRUE	-1.04862019506899	-1.11038053243818	0.001095990682655		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T11	TRUE	0.257403848489692	0.193354647144301	0.0787828827471843		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T12	TRUE	0.475126143741034	0.472785254980558	0.00277037049485031		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T13	TRUE	-0.283222364104314	-0.310460224207884	0.0328945674191934		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T14	TRUE	-1.84587164981777	-1.9006179400351	0.001095990682655		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T15	TRUE	-0.18088197993946	-0.247704822006454	0.0138162126750525		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T16	TRUE	2.01482244842037	2.00867528137831	0.978246776234735		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T17	TRUE	0.347459472727844	0.33589044298162	0.0898064884342037		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T18	TRUE	-1.88300316433309	-1.9366001091377	0.001095990682655		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T19	TRUE	0.586729643775379	0.627294173662376	0.138119187809941		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T1	TRUE	-0.207436276750135	-0.233081693997768	0.00177886377378597		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T20	TRUE	-1.19530021706898	-1.17876909206212	0.001095990682655		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T21	TRUE	1.89296436952415	1.90725157431724	0.679832032476445		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T22	TRUE	0.339723376252924	0.319979602477639	0.001095990682655		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T23	TRUE	1.15464202739863	1.13508334583936	0.679832032476445		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T24	TRUE	-0.981202665294251	-1.01289753815111	0.001095990682655		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T2	TRUE	-1.64783814206901	-1.68945605413723	0.001095990682655		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T3	TRUE	-0.28898436878802	-0.311913518816164	0.00550269180497639		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T4	TRUE	-0.961384765368902	-0.975864355137364	0.00277037049485031		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T5	TRUE	0.0480212097120896	0.0227255163013078	0.0328945674191934		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T6	TRUE	0.000249686860667842	-0.0404916951126177	0.296295762000229		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T7	TRUE	-0.373315256383725	-0.398113205517415	0.006936481298717		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T8	TRUE	1.48497017140226	1.53144069236903	0.762058775749569		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.
+PENG_CRA001160	T9	TRUE	1.65934235208333	1.67676847532045	0.427269576546905		TO_VERIFY_CELL_LEVEL_DISTRIBUTION	Patient-level malignant pseudobulk only; no new single-cell Hybrid threshold optimized.

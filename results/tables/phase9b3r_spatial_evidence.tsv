@@ -1,0 +1,8 @@
+feature_name	dataset_id	evidence_category	eligibility_status	naive_model_a_q	naive_model_b_q	naive_model_c_q	treated_model_a_q	treated_model_b_q	negative_controls_status	moncada_positive_sections	moncada_total_sections	basis
+HALLMARK_PROTEIN_SECRETION	HWANG_GSE202051_NAIVE	PARTIAL_SPATIAL_SUPPORT	ELIGIBLE	2.9451165100349825e-52	0.40525818637101907	0.4621291396968594	2.552301139435398e-21	0.7818220500175642	PASS	1.0	6.0	programmatically derived from eligibility, converged models, negative controls, treated sensitivity, and Moncada exploratory consistency
+HALLMARK_SPERMATOGENESIS	HWANG_GSE202051_NAIVE	INSUFFICIENT_SPATIAL_DATA	INSUFFICIENT_SPATIAL_DATA						NOT_APPLICABLE			coverage gate applied before formal modeling
+MEblack	HWANG_GSE202051_NAIVE	INSUFFICIENT_SPATIAL_DATA	INSUFFICIENT_SPATIAL_DATA						NOT_APPLICABLE			coverage gate applied before formal modeling
+MEblue	HWANG_GSE202051_NAIVE	INSUFFICIENT_SPATIAL_DATA	INSUFFICIENT_SPATIAL_DATA						NOT_APPLICABLE			coverage gate applied before formal modeling
+MEgreen	HWANG_GSE202051_NAIVE	INSUFFICIENT_SPATIAL_DATA	INSUFFICIENT_SPATIAL_DATA						NOT_APPLICABLE			coverage gate applied before formal modeling
+MEtan	HWANG_GSE202051_NAIVE	INSUFFICIENT_SPATIAL_DATA	INSUFFICIENT_SPATIAL_DATA						NOT_APPLICABLE			coverage gate applied before formal modeling
+MEgreenyellow	HWANG_GSE202051_NAIVE	INSUFFICIENT_SPATIAL_DATA	INSUFFICIENT_SPATIAL_DATA						NOT_APPLICABLE			coverage gate applied before formal modeling

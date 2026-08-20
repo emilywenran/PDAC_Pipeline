@@ -1,0 +1,62 @@
+# Conda environment consolidating the actual Python and R packages imported across
+# scripts/python/*.py and scripts/R/*.R in this repository (grepped from source, not guessed).
+# R package list also cross-checked against environment/renv.lock and the Phase 8 environment
+# setup records in environment/phase8_*.
+#
+# Build with:
+#   conda env create -f environment.yml
+#   conda activate pdac-github-release
+#
+# Notes:
+#   - The `estimate` R package (ESTIMATE tumor-purity scoring, Phase 7A.5) is not distributed
+#     on CRAN or Bioconductor. It must be installed separately from R-Forge, e.g.:
+#       install.packages("estimate", repos = "http://r-forge.r-project.org", type = "source")
+#     Version used during development: 1.0.13 (see docs/planning/DECISION_LOG.md, D-20).
+#   - For a fully pinned R environment, use environment/renv.lock with `renv::restore()`
+#     instead of (or in addition to) this file.
+
+name: pdac-github-release
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - r-base=4.5
+
+  # --- Python (see requirements.txt for the pip-only equivalent) ---
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+      - diptest
+      - PyYAML
+
+  # --- R: CRAN packages available via conda-forge ---
+  - r-tidyverse
+  - r-data.table
+  - r-ggplot2
+  - r-cluster
+  - r-clue
+  - r-mclust
+  - r-sandwich
+  - r-lmtest
+  - r-wgcna
+  - r-msigdbr
+  - r-renv
+
+  # --- R: Bioconductor packages available via bioconda ---
+  - bioconductor-limma
+  - bioconductor-fgsea
+  - bioconductor-gsva
+  - bioconductor-decoupler       # decoupleR
+  - bioconductor-progeny
+  - bioconductor-dorothea
+  - bioconductor-viper
+
+  # `estimate` is installed manually from R-Forge — see note above; not listed as a
+  # conda dependency because no conda-forge/bioconda build exists.

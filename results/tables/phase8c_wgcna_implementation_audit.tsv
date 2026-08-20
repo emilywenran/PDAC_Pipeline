@@ -1,0 +1,10 @@
+parameter	locked_value	observed_value	status	reviewer_notes
+gene_filtering	Top 25% MAD-variable genes (unsupervised)	Top 25% MAD-variable genes (10,663 genes)	PASS	Verified gene filtering was based on median absolute deviation without subtype or microbiome input.
+network_type	signed hybrid	signed hybrid	PASS	Verified signed hybrid network type used in blockwiseModules.
+soft_threshold_power	Lowest power meeting R2 >= 0.85	Power 5 (R2 = 0.875)	PASS	Verified power 5 is the lowest power meeting scale-free topology fit index R2 >= 0.85.
+min_module_size	>= 30 genes	30	PASS	Verified minModuleSize set to 30 in blockwiseModules.
+merge_threshold	Eigengene correlation >= 0.80 (dendrogram cut height 0.20)	mergeCutHeight = 0.20	PASS	Verified eigengene correlation >= 0.80 used for merging modules.
+module_count	Reproducible modules	16 modules (including grey)	PASS	Verified module count is reproduced.
+grey_genes	Reproducible unassigned genes	2,886 grey genes	PASS	Verified 2,886 grey genes are reproduced.
+module_taxon_fdr	Separate BH correction per taxon	BH applied per taxon x WGCNA_Modules collection	PASS	Verified module-taxon FDR applied separately for each taxon.
+expressed_gene_universe	Expressed-gene universe (10,663 genes)	Expressed-gene universe (10,663 genes)	PASS	Verified enrichment and module definition used correct expressed genes universe.

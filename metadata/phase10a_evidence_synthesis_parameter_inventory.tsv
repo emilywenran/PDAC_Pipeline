@@ -1,0 +1,5 @@
+parameter_name	parameter_value	description	source_phase
+evidence_hierarchy_levels	10	Number of categories in the cross-layer hierarchy	Phase 10A
+wgcna_module_promotion	FALSE	Ineligible WGCNA modules must not be promoted	Phase 10A
+literature_rescue_allowed	FALSE	Literature support cannot rescue an unsupported computational candidate	Phase 10A
+causal_claims_allowed	FALSE	Association is not treated as causation	Phase 10A

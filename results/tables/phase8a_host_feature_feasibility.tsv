@@ -1,0 +1,9 @@
+feature_collection	expected_features	features_available	gene_coverage	samples_available	method_available	package_available	model_permitted	reason_if_not_permitted	notes
+MSigDB Hallmark	50	50	N/A	62	YES	YES	YES	N/A	Primary pathway analysis collection. Phase 8A.5 validated msigdbr Hallmark retrieval and GSVA synthetic scoring in the project renv environment.
+PROGENy	14	14	N/A	62	YES	YES	YES	N/A	Primary pathway activity collection. Phase 8A.5 validated progeny package loading and decoupleR MLM synthetic activity calculation.
+Reactome	Many	Many	N/A	62	YES	YES	YES	N/A	Secondary pathway collection. ReactomePA, clusterProfiler, and fgsea load successfully; use only where locked gene-set interpretation is appropriate.
+KEGG	Many	Many	N/A	62	YES	YES	YES	N/A	Secondary pathway collection. clusterProfiler and KEGGREST dependencies are available; use only where locked gene-set interpretation is appropriate.
+DoRothEA	Many	13223 ABC regulon edges	N/A	62	YES	YES	YES	N/A	Layer 2 transcription-factor activities. Phase 8A.5 loaded DoRothEA human regulons and verified confidence levels A/B/C plus synthetic decoupleR/VIPER activity calculation.
+ESTIMATE	4	4	277/282 signature; 9,837/10,412 common	62	YES	YES	YES	N/A	Layer 3 TME programs. Inferred tumor purity, immune, stromal, and ESTIMATE scores calculated in Phase 7A.5.
+WGCNA	Many	Synthetic network validated	N/A	62	YES	YES	YES	N/A	Layer 4 data-driven co-expression modules. WGCNA, dynamicTreeCut, fastcluster, impute, and preprocessCore are available; full top-25%-MAD run should use blockwise WGCNA if dense TOM memory is limiting.
+Taxon-associated genes	42654	42654	42654/42654	62	YES	YES	YES	N/A	Layer 5 host-gene associations. limma and HC3 robust-SE packages validated; vectorized or limma-based implementation recommended for 42,654 genes x 9 taxa.

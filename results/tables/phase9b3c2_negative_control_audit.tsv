@@ -1,0 +1,4 @@
+control_type	validation	passed
+all	Iteration-level null variance > 0	True
+all	No uniform 0.0 stat / 1.0 p_value mock outputs	True
+all	Empirical p-values calculated correctly	True

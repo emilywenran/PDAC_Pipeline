@@ -1,0 +1,5 @@
+metric	n	missing_count	infinite_count	mean	sd	median	min	q1	q3	max	technically_extreme_count	technically_extreme_patients	validation_status	notes
+stromal_score	62	0	0	773.911962838709	785.010474738743	942.81517117175	-1237.24783813625	318.508510061826	1314.63489865196	1877.29494127201	0	""	PASS	Descriptive QC only; no microbiome feature relationships inspected.
+immune_score	62	0	0	727.974462722611	826.222002513568	528.584201531986	-707.630606925337	213.109586249559	1307.0311158443	2906.21109652004	0	""	PASS	Descriptive QC only; no microbiome feature relationships inspected.
+estimate_score	62	0	0	1501.88642556132	1434.66634880056	1537.40290665077	-1905.52053801321	579.183397810361	2538.67850810632	4382.86904626144	0	""	PASS	Descriptive QC only; no microbiome feature relationships inspected.
+inferred_tumor_purity	62	0	0	0.663245609548431	0.148764345705482	0.674386068479782	0.316895784370169	0.558984469931908	0.771216765281331	0.947561637260558	0	""	PASS	Descriptive QC only; no microbiome feature relationships inspected.

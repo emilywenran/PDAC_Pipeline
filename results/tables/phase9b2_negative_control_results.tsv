@@ -1,0 +1,6 @@
+dataset_id	control_type	random_seed	iteration_count	empirical_null_distribution	candidate_vs_control_comparison	result
+PENG_CRA001160	randomized module gene sets matched by size	2026	100	centered_by_construction	candidate module scores compared with random same-size gene-set scores	PASS_DESCRIPTIVE_CONTROL_GENERATED
+PENG_CRA001160	randomized module gene sets matched by expression	2026	100	TO_VERIFY_FULL_EXPRESSION_MATCHING	expression-matched null requires full per-gene bin audit	TO_VERIFY
+PENG_CRA001160	unrelated Hallmark pathways	2026	5	unrelated Hallmark controls scored in R session	no feature list modified from negative controls	PASS_NO_FEATURE_SELECTION
+PENG_CRA001160	patient-label permutations	2026	1000	not run for final p-values; retained as TO_VERIFY computationally intensive control	TO_VERIFY	TO_VERIFY
+PENG_CRA001160	cell-type-label permutations	2026	1000	not run for final p-values; retained as TO_VERIFY	TO_VERIFY	TO_VERIFY

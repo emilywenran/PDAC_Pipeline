@@ -1,0 +1,13 @@
+rule_id	category	genes_retained	genes_removed	samples_retained	missing_values_retained	requires_imputation	selected_for_primary_matrix	notes
+complete_observations_only	missing_handling	42758	2382	62	0	False	False	Retain only genes with no missing values; selected missing-value strategy.
+missing_le_10_percent	missing_handling	42758	2382	62	0	False	False	Threshold sensitivity; no partially missing gene passes because missing blocks are 21 or 41 samples.
+missing_le_20_percent	missing_handling	42758	2382	62	0	False	False	Threshold sensitivity; same retained set as complete observations.
+missing_le_50_percent	missing_handling	43981	1159	62	25683	True	False	Sensitivity only; would retain genes missing in 21 samples and require imputation.
+retain_all_with_gene_median_imputation_sensitivity	missing_handling	45140	0	62	73202	True	False	Rejected for primary matrix because source NA origin is not explained.
+retain_all_with_zero_fill_sensitivity	missing_handling	45140	0	62	73202	True	False	Rejected for primary matrix because source semantics do not support treating NA as zero.
+remove_all_zero_genes_only	expression_filter	45125	15	62	72587	True	False	Removes genes with zero observed expression after NA ignored.
+detected_gt0_in_at_least_1_sample	expression_filter	45125	15	62	72587	True	False	Retains genes with any positive observed expression.
+normalized_count_ge_1_in_10_percent_samples	expression_filter	43537	1603	62	22763	True	False	Requires normalized count >= 1 in at least 7 samples.
+normalized_count_ge_1_in_20_percent_samples	expression_filter	41750	3390	62	2588	True	False	Requires normalized count >= 1 in at least 13 samples.
+normalized_count_ge_1_in_50_percent_samples	expression_filter	36951	8189	62	0	False	False	Requires normalized count >= 1 in at least 31 samples.
+primary_complete_not_all_zero_count_ge_1_10_percent	selected_primary	42654	2486	62	0	False	True	Complete observations, not all-zero, and normalized count >= 1 in at least 10% of samples.

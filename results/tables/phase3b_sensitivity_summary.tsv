@@ -1,0 +1,6 @@
+analysis_set	matrix	n_samples	primary_exact_agreement	assignments_changed_vs_full_primary	overall_conclusion_changed	notes
+full_62	filtered_normalized_counts	62	1.0	0	False	Reference locked primary run.
+exclude_phase2b_outlier_candidates	filtered_normalized_counts	58	1.0	0	False	Excluded YX16135T, YX16158T, YX16194T, and YX16224T; slice sizes adjusted to 17/19/22 because all four excluded samples are in the locked Hybrid slice.
+log2_median_centering_stress_test	log2_normalized_counts_plus_1	62	0.5806451612903226	26	False	Locked sensitivity: median subtraction and row scaling applied to log2(count+1) matrix.
+alternative_missingness_gene_median_imputed	not_material_for_primary_signature	62	1.0	0	False	Approved Phase 3A stress test; no active primary signature gene differs from the complete-observation matrix.
+alternative_missingness_zero_filled	not_material_for_primary_signature	62	1.0	0	False	Approved Phase 3A stress test; the 6 unavailable signature genes are absent from the source matrix rather than NA cells.

@@ -1,0 +1,26 @@
+section	original_issue	edit_type	revised_action	claim_changed_yes_no	evidence_category_changed_yes_no
+Abstract	Vague background phrasing	Tightening	Changed to "associated with host transcriptional programmes"	NO	NO
+Abstract	Sparse methods line	Expansion	Added bulk, single-cell, spatial, and external validation details	NO	NO
+Abstract	Dense results sentence	Readability	Split into two sentences for clarity	NO	NO
+Abstract	Inconsistent composition language	Standardisation	Used CELL_COMPOSITION_EXPLAINED terminology	NO	NO
+Introduction	Repeated negative microbial disclaimers	Consolidation	Combined into a single triple-qualifier compound sentence	NO	NO
+Introduction	Long paragraph transitions	Readability	Shortened transitions and added forward reference	NO	NO
+Introduction	Project-internal phase references	Standardisation	Replaced with "corrected multi-layer scoring framework"	NO	NO
+Results 2.1	Passive constructions	Readability	Changed to active voice ("We performed...")	NO	NO
+Results 2.1	Redundant microbial disclaimer	Tightening	Shortened to a forward reference	NO	NO
+Results 2.2	Wordy phrasing	Tightening	Removed redundant words	NO	NO
+Results 2.3	Non-standard bullet formatting	Formatting	Changed to standard markdown bullets	NO	NO
+Results 2.3	Dense spatial bullet	Readability	Split into sub-bullets for spatial mapping and Moncada 1/6	NO	NO
+Results 2.3	Abrupt null-finding transition	Flow	Added a transitional sentence for explicitly null findings	NO	NO
+Results 2.4	Wordy co-occurrence phrasing	Tightening	Shortened to "was significantly correlated with"	NO	NO
+Results 2.4	Inconsistent taxa formatting	Standardisation	Systematically italicised Ochrobactrum and Herbaspirillum	NO	NO
+Results 2.5	Repetitive transition	Readability	Reworded to "Although initial analyses detected..."	NO	NO
+Results 2.6	Project-internal phase references	Standardisation	Replaced with descriptive framework text	NO	NO
+Discussion	Single short paragraph	Expansion	Expanded into 3 paragraphs detailing findings, methods, and implications	NO	NO
+Discussion	Over-strong causal-adjacent language	Softening	Replaced "cannot be claimed to cause" with "causal direction cannot be inferred"	NO	NO
+Limitations	Missing sample size limitation	Expansion	Added single-cohort primary design (n=62)	NO	NO
+Methods Summary	Sparse description	Expansion	Added cohort size, estimation covariates, and validation details	NO	NO
+Figure Legends	One-line legends	Expansion	Expanded to 2-3 sentences	NO	NO
+Table Legends	One-line legends	Expansion	Expanded to 2-3 sentences	NO	NO
+Table Legends	Missing explicit limitations	Constraint	Ensured Table S3 explicitly states exploratory and 1 of 6 sections	NO	NO
+Global	Mixed UK/US spelling	Standardisation	Standardised to UK spelling (tumour, localisation, etc.)	NO	NO

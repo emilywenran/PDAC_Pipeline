@@ -1,0 +1,6 @@
+finding_id	severity	affected_candidate	affected_layer	finding	evidence	correction_required	recommended_action	status	notes
+F1	LOW	ALL	SCRIPT	Manual overrides removed and scores derived programmatically	18_phase10br_cross_layer_synthesis.py avoids direct dictionary assignments	FALSE	NONE	PASS	Confirmed Phase 10C finding #1 is fully resolved
+F2	LOW	CTCFL	SC_EVIDENCE	CTCFL is properly penalized for CELL_COMPOSITION_EXPLAINED and not promoted	phase10br_candidate_target_scores.tsv shows penalty	FALSE	NONE	PASS	Confirmed Phase 10C finding #2 is fully resolved
+F3	LOW	ALL	EXTERNAL_DB	External database queries are tracked locally or marked unavailable	phase10br_external_database_query_audit.tsv	FALSE	NONE	PASS	Confirmed Phase 10C finding #3 is fully resolved
+F4	LOW	BHLHE40, HALLMARK_PROTEIN_SECRETION	MULTI_LAYER	BHLHE40 and HALLMARK_PROTEIN_SECRETION evaluated objectively without descriptive overrides	phase10br_candidate_target_scores.tsv	FALSE	NONE	PASS	Confirmed Phase 10C finding #4 is fully resolved
+F5	LOW	HALLMARK_SPERMATOGENESIS	MULTI_LAYER	HALLMARK_SPERMATOGENESIS is scored and penalized for composition sensitivity	phase10br_candidate_target_scores.tsv	FALSE	NONE	PASS	Confirmed Phase 10C finding #5 is fully resolved

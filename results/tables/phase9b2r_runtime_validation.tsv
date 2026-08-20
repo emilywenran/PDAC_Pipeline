@@ -1,0 +1,24 @@
+validation_item	expected_value	observed_value	status	notes
+authoritative_primary_scope	PENG_CRA001160	PENG_CRA001160	PASS	Preserve Phase 9A.3 PENG-only primary scope.
+provenance_accession	CRA001160	CRA001160	PASS	Official Peng cohort identity.
+provenance_BioProject	PRJCA001063	PRJCA001063	PASS	Official Peng cohort identity.
+provenance_publication	Peng et al. 2019	Peng et al. (2019)	PASS	Publication identity.
+no_gse111672_alias	not GSE111672	CRA001160	PASS	GSE111672 remains Moncada, not Peng.
+raw_file_absence	no FASTQ/BAM/SRA/CRAM	none	PASS	Phase 9B2R must use processed files only.
+processed_file_present_count-matrix.txt	present	present	PASS	Official processed file required.
+processed_file_sha256_count-matrix.txt	recorded in manifest	4cbfb38c61f0157e059bc74c03fbf18bb61d42b6682d0f8066d0cd3052d1ed60	PASS	Checksum recalculated for audit trail.
+processed_file_present_all_celltype.txt	present	present	PASS	Official processed file required.
+processed_file_sha256_all_celltype.txt	recorded in manifest	41a37cfd2a12c06e5583b57d23aab5e97abc6f6a138bc27972badd9bb9477a64	PASS	Checksum recalculated for audit trail.
+processed_file_present_md5sum.txt	present	present	PASS	Official processed file required.
+processed_file_sha256_md5sum.txt	recorded in manifest	af899981e6a122b2f2334b7e02a240e6ba8c7a1cd3c6258e7f17d86f57ae41be	PASS	Checksum recalculated for audit trail.
+prepare_summary_cells	57530	57530	PASS	Unchanged core prepare summary verification.
+prepare_summary_patients	35	35	PASS	Unchanged core prepare summary verification.
+prepare_summary_tumor_patients	24	24	PASS	Unchanged core prepare summary verification.
+prepare_summary_control_patients	11	11	PASS	Unchanged core prepare summary verification.
+prepare_summary_random_seed	2026	2026	PASS	Unchanged core prepare summary verification.
+prepare_summary_min_cells_per_patient_celltype	20	20	PASS	Unchanged core prepare summary verification.
+cohort_qc_cell_count	57530	57530	PASS	Cell count preserved.
+cohort_qc_patient_count	35	35	PASS	Patient/donor count preserved.
+patient_independence	patient-level pseudobulk	patient_id retained; primary analyses use patient-level pseudobulk	PASS	No cell-level pseudoreplication.
+pseudobulk_eligibility_rule	>=20 cells -> ELIGIBLE	0	PASS	Phase 9B2C pseudobulk audit rule reproduced.
+phase9b2c_module_coverage_reproduced	all five modules below 0.80	MEblack;MEblue;MEgreen;MEtan;MEgreenyellow	PASS	Stop if this disagrees with Phase 9B2C.

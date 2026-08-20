@@ -1,0 +1,4 @@
+finding_id	severity	description
+FIND_9B3C2_01	INFORMATIONAL	All Phase 9B3C findings are closed.
+FIND_9B3C2_02	INFORMATIONAL	Small-sample asymptotic Z inference is anti-conservative but authorized by the locked plan.
+FIND_9B3C2_03	INFORMATIONAL	No critical, major, or moderate issues remain.

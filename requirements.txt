@@ -1,0 +1,15 @@
+# Python dependencies consolidated from third-party imports across scripts/python/*.py
+# (grepped from the actual analysis, summary, and validator scripts in this repository).
+# No version pins were recorded in the original project logs beyond what is captured in
+# environment/phase8_pre_setup_installed_packages.tsv; pin versions yourself if you need
+# exact reproducibility and consult that file for the versions used during development.
+
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+diptest
+PyYAML

@@ -1,0 +1,51 @@
+original_symbol	mapped_symbol	program	inclusion_status	exclusion_reason	source	notes
+VGLL1	VGLL1	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+UCA1	UCA1	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+S100A2	S100A2	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+LY6D	LY6D	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+SPRR3	SPRR3	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+SPRR1B	SPRR1B	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+LEMD1	LEMD1	Basal-like	included	None	Moffitt et al., 2015	Retained in primary 50-gene signature.
+KRT15	KRT15	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+CTSL2	CTSV	Basal-like	included	None	Moffitt et al., 2015	Mapped from CTSL2 to CTSV.
+DHRS9	DHRS9	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+AREG	AREG	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+CST6	CST6	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+SERPINB3	SERPINB3	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+KRT6C	KRT6C	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+KRT6A	KRT6A	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+SERPINB4	SERPINB4	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+FAM83A	FAM83A	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+SCEL	SCEL	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+FGFBP1	FGFBP1	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+KRT7	KRT7	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+KRT17	KRT17	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+GPR87	GPR87	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+TNS4	TNS4	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+SLC2A1	SLC2A1	Basal-like	included	None	Moffitt et al., 2015	Canonical signature gene.
+ANXA8L2	ANXA8	Basal-like	included	None	Moffitt et al., 2015	Mapped from ANXA8L2 to ANXA8.
+BTNL8	BTNL8	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+FAM3D	FAM3D	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+ATAD4	FLAD1	Classical	included	None	Moffitt et al., 2015	Mapped from ATAD4 to FLAD1.
+AGR3	AGR3	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+CTSE	CTSE	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+LOC400573	TMEM238L	Classical	included	None	Moffitt et al., 2015	Mapped from LOC400573 to TMEM238L.
+LYZ	LYZ	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+TFF2	TFF2	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+TFF1	TFF1	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+ANXA10	ANXA10	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+LGALS4	LGALS4	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+PLA2G10	PLA2G10	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+CEACAM6	CEACAM6	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+VSIG2	VSIG2	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+TSPAN8	TSPAN8	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+ST6GALNAC1	ST6GALNAC1	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+AGR2	AGR2	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+TFF3	TFF3	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+CYP3A7	CYP3A7	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+MYO1A	MYO1A	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+CLRN3	CLRN3	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+KRT20	KRT20	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+CDH17	CDH17	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+SPINK4	SPINK4	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.
+REG4	REG4	Classical	included	None	Moffitt et al., 2015	Canonical signature gene.

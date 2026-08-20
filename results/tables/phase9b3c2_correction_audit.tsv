@@ -1,0 +1,6 @@
+finding_id	original_issue	phase9b3r_resolution	status
+FIND-01	Hardcoded negative controls	Real iteration-level permutations executed and saved.	CLOSED
+FIND-02	Ineligible HALLMARK_SPERMATOGENESIS modeled	Gated before modeling; evidence category is INSUFFICIENT_SPATIAL_DATA.	CLOSED
+FIND-03	Non-converged treated Model C inference retained	Model C audit row retained but inferential fields set to NA.	CLOSED
+FIND-04	Non-converged Model C plotted in figures	Excluded from visualization.	CLOSED
+FIND-05	Provenance/count discrepancies	Remains documented. No code correction required.	UNCHANGED_RESOLVED

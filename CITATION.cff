@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software or workflow, please cite it as below."
+type: software
+title: "PDAC_Pipeline: Analysis code and reproducibility package for an integrative multi-omic PDAC study"
+abstract: >
+  Analysis scripts, validator scripts, workflow documentation, decision log,
+  AI-agent/K-Dense skill usage log, and dataset accession metadata for an
+  integrative multi-omic analysis of pancreatic ductal adenocarcinoma (PDAC),
+  coordinated through a human-supervised, LLM-assisted multi-agent
+  bioinformatics workflow.
+authors:
+  - given-names: "Emily"
+    family-names: "[PLACEHOLDER: family name]"
+    email: "wenran.emily@gmail.com"
+    orcid: "[PLACEHOLDER: ORCID iD, e.g. https://orcid.org/0000-0000-0000-0000]"
+version: "0.1.0"
+date-released: "2026-08-20"
+license: MIT
+repository-code: "https://github.com/emilywenran/PDAC_Pipeline"
+keywords:
+  - pancreatic ductal adenocarcinoma
+  - multi-omics
+  - tumour microbiome
+  - transcriptomics
+  - spatial transcriptomics
+  - single-cell RNA-seq
+  - LLM-assisted bioinformatics workflow
+preferred-citation:
+  type: article
+  title: "Integrative Multi-Omic Analysis Reveals Intratumoural Microbiome–Host Transcriptional Programs in Pancreatic Ductal Adenocarcinoma via a Human-Supervised AI-Assisted Workflow"
+  authors:
+    - given-names: "Emily"
+      family-names: "[PLACEHOLDER: family name]"
+  status: "[PLACEHOLDER: update once submitted/published — journal, year, volume, DOI]"

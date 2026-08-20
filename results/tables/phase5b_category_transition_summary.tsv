@@ -1,0 +1,4 @@
+comparison	changed_category_count	notes
+primary_to_no_LEMD1	0	category rules applied to primary only; score-rank stability reported
+primary_to_raw_counts	0	category rules applied to primary only; input-scale score stability reported
+primary_to_outlier_exclusion	4	outlier candidates retained as TO_VERIFY in primary and excluded from sensitivity

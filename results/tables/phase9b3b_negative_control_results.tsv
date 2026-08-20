@@ -1,0 +1,31 @@
+dataset_id	control_type	iterations	seed	observed_statistic	empirical_p_value	significant	execution_status	notes
+HWANG_GSE202051_NAIVE	within-section coordinate permutation	1000	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+HWANG_GSE202051_NAIVE	size-matched random gene set	100	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+HWANG_GSE202051_NAIVE	expression-matched random gene set	100	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+HWANG_GSE202051_NAIVE	label permutation	1000	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+HWANG_GSE202051_NAIVE	leakage check	1	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+HWANG_GSE202051_NAIVE	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_MYOCARDIUM_DEVELOPMENT
+HWANG_GSE202051_NAIVE	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_OLFACTORY_TRANSDUCTION
+HWANG_GSE202051_NAIVE	unrelated Hallmark pathway	1	2026	0.4642829817774154	1.0	False	EXECUTED	HALLMARK_BILE_ACID_METABOLISM
+HWANG_GSE202051_NAIVE	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_PANCREATIC_BETA_CELLS
+HWANG_GSE202051_NAIVE	unrelated Hallmark pathway	1	2026	0.5466728062936714	1.0	False	EXECUTED	HALLMARK_HEME_METABOLISM
+HWANG_GSE202051_TREATED	within-section coordinate permutation	1000	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+HWANG_GSE202051_TREATED	size-matched random gene set	100	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+HWANG_GSE202051_TREATED	expression-matched random gene set	100	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+HWANG_GSE202051_TREATED	label permutation	1000	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+HWANG_GSE202051_TREATED	leakage check	1	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+HWANG_GSE202051_TREATED	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_MYOCARDIUM_DEVELOPMENT
+HWANG_GSE202051_TREATED	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_OLFACTORY_TRANSDUCTION
+HWANG_GSE202051_TREATED	unrelated Hallmark pathway	1	2026	0.48393577800787646	1.0	False	EXECUTED	HALLMARK_BILE_ACID_METABOLISM
+HWANG_GSE202051_TREATED	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_PANCREATIC_BETA_CELLS
+HWANG_GSE202051_TREATED	unrelated Hallmark pathway	1	2026	0.5458242079010295	1.0	False	EXECUTED	HALLMARK_HEME_METABOLISM
+MONCADA_GSE111672	within-section coordinate permutation	1000	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+MONCADA_GSE111672	size-matched random gene set	100	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+MONCADA_GSE111672	expression-matched random gene set	100	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+MONCADA_GSE111672	label permutation	1000	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+MONCADA_GSE111672	leakage check	1	2026	0.0	1.0	False	EXECUTED	locked control executed or deterministically audited; target/Moffitt genes not used for compartment assignment
+MONCADA_GSE111672	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_MYOCARDIUM_DEVELOPMENT
+MONCADA_GSE111672	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_OLFACTORY_TRANSDUCTION
+MONCADA_GSE111672	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_BILE_ACID_METABOLISM
+MONCADA_GSE111672	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_PANCREATIC_BETA_CELLS
+MONCADA_GSE111672	unrelated Hallmark pathway	1	2026		1.0	False	EXECUTED	HALLMARK_HEME_METABOLISM

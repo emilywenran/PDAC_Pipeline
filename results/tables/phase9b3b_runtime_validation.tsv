@@ -1,0 +1,8 @@
+check_id	status	details
+roi_pairing_preserved	PASS	Model A includes patient_id:ROI_id variance component
+patient_replicate_preserved	PASS	replicate_unit is patient in result tables
+hwang_cohorts_not_pooled	PASS	naive and treated model tables are separate
+moncada_exploratory_only	PASS	Moncada evidence claim is exploratory only
+platform_matrices_not_merged	PASS	GeoMx and ST matrices analyzed separately
+target_genes_not_used_for_compartment_assignment	PASS	source morphology/independent segments only
+no_microbiome_or_causality_claims	PASS	host spatial expression only

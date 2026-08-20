@@ -1,0 +1,12 @@
+validation_check	passed	observed	expected	action_if_failed
+exactly_62_unique_patients	True	62	62	STOP
+identical_patient_mapping_microbiome_host_covariates	True	sets_equal	identical patient sets	STOP
+primary_CLR_has_122_genera	True	122	122	STOP
+no_duplicated_genera	True	0	0	STOP
+no_duplicated_patients	True	0	0	STOP
+no_missing_or_infinite_primary_scores	True	0	0	STOP
+Moffitt50_contrast_increases_in_Basal_direction	True	Basal_mean=1.3643610362273142; Classical_mean=-0.6080835367785824	Basal > Classical	STOP
+clinical_Model_2_blocked_age_sex_stage_unavailable	True	all_missing	all missing	STOP_MODEL2
+Model_3P_3I_3S_sensitivity_only	True	sensitivity_only	sensitivity_only	STOP
+documented_direction_every_host_score	True	documented in script/report	documented	STOP
+primary_abundance_and_CLR_patient_sets_match	True	sets_equal	sets_equal	STOP

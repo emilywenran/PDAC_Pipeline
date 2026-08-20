@@ -1,0 +1,2 @@
+python	platform	pandas	numpy	scipy	matplotlib	seaborn	random_seed	bootstrap_iterations	permutation_iterations	runtime_seconds
+3.13.9	macOS-26.5.1-arm64-arm-64bit-Mach-O	2.3.3	2.3.5	scipy	3.10.6	0.13.2	2026	1000	1000	4.29

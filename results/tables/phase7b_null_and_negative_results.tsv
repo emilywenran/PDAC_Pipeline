@@ -1,0 +1,7 @@
+result_type	finding	retained	summary
+global_primary	primary_PERMANOVA	True	R2=0.0533922; p=0.0001
+primary_FDR	genera_q_lt_0.05	True	33
+method_sensitive	sign_reversal_preprocessing	True	67
+contamination_sensitive	flag_or_proxy_sensitive	True	21
+covariate_sensitive	sign_change_any_sensitivity_model	True	62
+clinical_Model_2	not_generated	True	age_sex_stage_unavailable

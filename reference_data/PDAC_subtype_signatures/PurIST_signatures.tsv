@@ -1,0 +1,9 @@
+pair_index	gene_A	gene_B	coefficient	direction	presence_in_GSE172356	mapped_symbol_A	mapped_symbol_B
+1	GPR87	REG4	1.994	gene_A > gene_B	True	GPR87	REG4
+2	KRT6A	ANXA10	2.031	gene_A > gene_B	True	KRT6A	ANXA10
+3	BCAR3	GATA6	1.618	gene_A > gene_B	True	BCAR3	GATA6
+4	PTGES	CLDN18	0.922	gene_A > gene_B	True	PTGES	CLDN18
+5	ITGA3	LGALS4	1.059	gene_A > gene_B	True	ITGA3	LGALS4
+6	C16orf74	DDC	0.929	gene_A > gene_B	True	C16orf74	DDC
+7	S100A2	SLC40A1	2.505	gene_A > gene_B	True	S100A2	SLC40A1
+8	KRT5	CLRN3	0.485	gene_A > gene_B	True	KRT5	CLRN3

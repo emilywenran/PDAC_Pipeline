@@ -1,0 +1,8 @@
+Prohibited_Claim	Reason	Enforcing_Phase
+Microbial causality (e.g. "drives", "causes")	Statistical associations only, no longitudinal or experimental proof	Phase 7C, Phase 8C
+Microbial localization or physical interaction	No sequenced negative controls, associations based on bulk co-occurrence	Phase 7C, Phase 8C
+Full spatial validation of basal-classical axis	Continuous axis association failed (Models B & C)	Phase 9B3C2
+Promotion of CTCFL/BORIS using post hoc reasoning	Cell composition explained, violates Phase 10A strict priority rules	Phase 10C2
+Use of literature support to rescue unsupported targets	Prioritization must rely exclusively on computational evidence ranking	Phase 10C2
+Target prioritization deviating from Phase 10C2 ranking	Ranking must strictly follow Phase 10B-R results	Phase 10C2
+Hiding partial or null evidence	Full transparency of evidence layers is required	All validation phases

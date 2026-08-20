@@ -1,0 +1,14 @@
+item	version
+python	3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:11:29) [Clang 20.1.8 ]
+platform	macOS-26.5.1-arm64-arm-64bit-Mach-O
+numpy	2.3.5
+pandas	2.3.3
+scipy	1.16.3
+statsmodels	0.14.5
+matplotlib	3.10.6
+seaborn	0.13.2
+random_seed	2026
+permutations	9999
+bootstrap_iterations	2000
+runtime_seconds	77.57
+MaAsLin2_available	False

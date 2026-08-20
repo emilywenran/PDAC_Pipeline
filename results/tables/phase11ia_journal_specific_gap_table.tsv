@@ -1,0 +1,12 @@
+item	current_status	why_journal_specific	information_needed_from_user	priority	required_action_after_journal_selected
+word_limit	TO_BE_CONFIRMED	Journals have distinct limits for abstract, introduction, and total words.	Target journal name.	High	Count words and edit manuscript to comply.
+abstract_format	TO_BE_CONFIRMED	Journals require specific structured headers or unstructured formats.	Target journal name.	High	Reformat abstract to match journal guidelines.
+reference_style	TO_BE_CONFIRMED	Citation format (number vs author-year) and bibliography style vary.	Target journal name.	High	Apply correct citation style (e.g., CSL) to references.
+figure_format_and_resolution	TO_BE_CONFIRMED	Journals require specific file types (PDF/TIFF/EPS) and DPI.	Target journal name.	High	Export figures in requested format/resolution.
+supplementary_file_rules	TO_BE_CONFIRMED	Naming conventions and allowed file types for supplementaries vary.	Target journal name.	Medium	Rename and combine tables as required.
+data_availability_wording	TO_BE_CONFIRMED	Journals have mandatory boilerplate text for data availability.	Target journal name.	Medium	Replace placeholder with exact required wording.
+ethics_statement_requirements	TO_BE_CONFIRMED	Specific institutional review board approval details are often required.	Target journal name.	Medium	Add compliant ethics statement.
+conflict_of_interest_statement	TO_BE_CONFIRMED	Specific journal forms and text formats are required.	Target journal name.	High	Replace placeholder and collect author forms.
+funding_statement	TO_BE_CONFIRMED	Required phrasing for grant numbers varies by journal.	Target journal name.	Medium	Replace placeholder with formatted funding details.
+author_contribution_format	TO_BE_CONFIRMED	Some journals require CRediT taxonomy or specific text.	Target journal name.	Medium	Replace placeholder with formatted contributions.
+cover_letter_format	TO_BE_CONFIRMED	Specific editor salutations and mandatory declarations vary.	Target journal name.	High	Update generic cover letter to address the journal editor.

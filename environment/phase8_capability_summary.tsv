@@ -1,0 +1,10 @@
+capability	status	notes
+msigdbr_hallmark	PASS	50
+hallmark_scores	PASS	TRUE
+progeny_activity	PASS	TRUE
+dorothea_abc	PASS	13223
+tf_activity	PASS	TRUE
+wgcna_network	PASS	TRUE
+limma_models	PASS	TRUE
+hc3	PASS	TRUE
+save_reload	PASS	TRUE

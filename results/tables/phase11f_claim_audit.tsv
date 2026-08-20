@@ -1,0 +1,16 @@
+manuscript_section	claim_text_or_location	audit_item	status	required_action	evidence_category_changed_yes_no	target_ranking_changed_yes_no
+Global	Multiple sections	No microbial causality is claimed.	PASS	None required	NO	NO
+Global	Multiple sections	No microbial localisation is claimed.	PASS	None required	NO	NO
+Global	Multiple sections	No physical host-microbe interaction is claimed.	PASS	None required	NO	NO
+Global	Multiple sections	Ochrobactrum is described only in associative/co-occurrence terms.	PASS	None required	NO	NO
+Global	Multiple sections	HALLMARK_PROTEIN_SECRETION remains PARTIAL_SPATIAL_SUPPORT.	PASS	None required	NO	NO
+Global	Multiple sections	The basal-classical spatial-axis association is not overstated.	PASS	None required	NO	NO
+Global	Multiple sections	Moncada remains exploratory only, with positive concordance in only 1 of 6 sections.	PASS	None required	NO	NO
+Global	Multiple sections	CTCFL/BORIS remains excluded from prioritisation because of CELL_COMPOSITION_EXPLAINED.	PASS	None required	NO	NO
+Global	Multiple sections	CTCFL/BORIS is not rescued by literature-based or post hoc biological plausibility.	PASS	None required	NO	NO
+Global	Multiple sections	HALLMARK_SPERMATOGENESIS remains a null/failed validation finding.	PASS	None required	NO	NO
+Global	Multiple sections	MEred and MEpurple remain failed or unsupported findings.	PASS	None required	NO	NO
+Global	Multiple sections	The 9 failed TF activities remain explicit.	PASS	None required	NO	NO
+Global	Multiple sections	No candidate is described as an established therapeutic target.	PASS	None required	NO	NO
+Global	Multiple sections	All null, partial, exploratory, and limitation statements remain visible in Abstract, Results, Discussion, Limitations, figure legends, and supplementary table legends.	PASS	None required	NO	NO
+Global	Multiple sections	Evidence categories and target rankings are unchanged from the accepted Phase 10C2 / Phase 11C framework.	PASS	None required	NO	NO

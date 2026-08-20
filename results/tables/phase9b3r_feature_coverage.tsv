@@ -1,0 +1,33 @@
+dataset_id	feature_layer	feature_name	genes_expected	genes_available	coverage_fraction	formal_inference_status	scoring_method
+HWANG_GSE202051_NAIVE	Hallmark	HALLMARK_PROTEIN_SECRETION	96	79	0.8229166666666666	ELIGIBLE	rank-normalized ssGSEA-style enrichment gated before model fitting
+HWANG_GSE202051_NAIVE	Hallmark	HALLMARK_SPERMATOGENESIS	135	50	0.37037037037037035	INSUFFICIENT_SPATIAL_DATA	rank-normalized ssGSEA-style enrichment gated before model fitting
+HWANG_GSE202051_NAIVE	Hallmark	HALLMARK_BILE_ACID_METABOLISM	112	59	0.5267857142857143	INSUFFICIENT_SPATIAL_DATA	rank-normalized ssGSEA-style enrichment gated before model fitting
+HWANG_GSE202051_NAIVE	Hallmark	HALLMARK_HEME_METABOLISM	200	127	0.635	INSUFFICIENT_SPATIAL_DATA	rank-normalized ssGSEA-style enrichment gated before model fitting
+HWANG_GSE202051_NAIVE	TF_regulon	ELF1	0	0	0.0	INSUFFICIENT_SPATIAL_DATA	regulon unavailable locally; TF-symbol proxy prohibited
+HWANG_GSE202051_NAIVE	TF_regulon	MBD2	0	0	0.0	INSUFFICIENT_SPATIAL_DATA	regulon unavailable locally; TF-symbol proxy prohibited
+HWANG_GSE202051_NAIVE	TF_regulon	ZBTB7A	0	0	0.0	INSUFFICIENT_SPATIAL_DATA	regulon unavailable locally; TF-symbol proxy prohibited
+HWANG_GSE202051_NAIVE	TF_regulon	ZNF384	0	0	0.0	INSUFFICIENT_SPATIAL_DATA	regulon unavailable locally; TF-symbol proxy prohibited
+HWANG_GSE202051_NAIVE	TF_regulon	ZNF740	0	0	0.0	INSUFFICIENT_SPATIAL_DATA	regulon unavailable locally; TF-symbol proxy prohibited
+HWANG_GSE202051_NAIVE	WGCNA_module	MEblack	270	12	0.044444444444444446	INSUFFICIENT_SPATIAL_DATA	standardized mean rank gated by coverage
+HWANG_GSE202051_NAIVE	WGCNA_module	MEblue	1691	174	0.1028976936723832	INSUFFICIENT_SPATIAL_DATA	standardized mean rank gated by coverage
+HWANG_GSE202051_NAIVE	WGCNA_module	MEgreen	515	77	0.14951456310679612	INSUFFICIENT_SPATIAL_DATA	standardized mean rank gated by coverage
+HWANG_GSE202051_NAIVE	WGCNA_module	MEtan	103	11	0.10679611650485436	INSUFFICIENT_SPATIAL_DATA	standardized mean rank gated by coverage
+HWANG_GSE202051_NAIVE	WGCNA_module	MEgreenyellow	166	11	0.06626506024096386	INSUFFICIENT_SPATIAL_DATA	standardized mean rank gated by coverage
+HWANG_GSE202051_TREATED	Hallmark	HALLMARK_PROTEIN_SECRETION	96	79	0.8229166666666666	ELIGIBLE	rank-normalized ssGSEA-style enrichment gated before model fitting
+HWANG_GSE202051_TREATED	Hallmark	HALLMARK_SPERMATOGENESIS	135	50	0.37037037037037035	INSUFFICIENT_SPATIAL_DATA	rank-normalized ssGSEA-style enrichment gated before model fitting
+HWANG_GSE202051_TREATED	Hallmark	HALLMARK_BILE_ACID_METABOLISM	112	59	0.5267857142857143	INSUFFICIENT_SPATIAL_DATA	rank-normalized ssGSEA-style enrichment gated before model fitting
+HWANG_GSE202051_TREATED	Hallmark	HALLMARK_HEME_METABOLISM	200	127	0.635	INSUFFICIENT_SPATIAL_DATA	rank-normalized ssGSEA-style enrichment gated before model fitting
+HWANG_GSE202051_TREATED	TF_regulon	ELF1	0	0	0.0	INSUFFICIENT_SPATIAL_DATA	regulon unavailable locally; TF-symbol proxy prohibited
+HWANG_GSE202051_TREATED	TF_regulon	MBD2	0	0	0.0	INSUFFICIENT_SPATIAL_DATA	regulon unavailable locally; TF-symbol proxy prohibited
+HWANG_GSE202051_TREATED	TF_regulon	ZBTB7A	0	0	0.0	INSUFFICIENT_SPATIAL_DATA	regulon unavailable locally; TF-symbol proxy prohibited
+HWANG_GSE202051_TREATED	TF_regulon	ZNF384	0	0	0.0	INSUFFICIENT_SPATIAL_DATA	regulon unavailable locally; TF-symbol proxy prohibited
+HWANG_GSE202051_TREATED	TF_regulon	ZNF740	0	0	0.0	INSUFFICIENT_SPATIAL_DATA	regulon unavailable locally; TF-symbol proxy prohibited
+HWANG_GSE202051_TREATED	WGCNA_module	MEblack	270	12	0.044444444444444446	INSUFFICIENT_SPATIAL_DATA	standardized mean rank gated by coverage
+HWANG_GSE202051_TREATED	WGCNA_module	MEblue	1691	174	0.1028976936723832	INSUFFICIENT_SPATIAL_DATA	standardized mean rank gated by coverage
+HWANG_GSE202051_TREATED	WGCNA_module	MEgreen	515	77	0.14951456310679612	INSUFFICIENT_SPATIAL_DATA	standardized mean rank gated by coverage
+HWANG_GSE202051_TREATED	WGCNA_module	MEtan	103	11	0.10679611650485436	INSUFFICIENT_SPATIAL_DATA	standardized mean rank gated by coverage
+HWANG_GSE202051_TREATED	WGCNA_module	MEgreenyellow	166	11	0.06626506024096386	INSUFFICIENT_SPATIAL_DATA	standardized mean rank gated by coverage
+MONCADA_GSE111672	Hallmark	HALLMARK_PROTEIN_SECRETION	96	SEE_SECTION_FILES		EVALUATED_PER_SECTION_EXPLORATORY_ONLY	section-level rank-normalized enrichment; not formal replication
+MONCADA_GSE111672	Hallmark	HALLMARK_SPERMATOGENESIS	135	SEE_SECTION_FILES		EVALUATED_PER_SECTION_EXPLORATORY_ONLY	section-level rank-normalized enrichment; not formal replication
+MONCADA_GSE111672	Hallmark	HALLMARK_BILE_ACID_METABOLISM	112	SEE_SECTION_FILES		EVALUATED_PER_SECTION_EXPLORATORY_ONLY	section-level rank-normalized enrichment; not formal replication
+MONCADA_GSE111672	Hallmark	HALLMARK_HEME_METABOLISM	200	SEE_SECTION_FILES		EVALUATED_PER_SECTION_EXPLORATORY_ONLY	section-level rank-normalized enrichment; not formal replication

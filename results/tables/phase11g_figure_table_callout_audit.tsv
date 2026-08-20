@@ -1,0 +1,9 @@
+item_type	item_id	callout_present_yes_no	legend_present_yes_no	section_location	consistency_status	required_action
+Figure	Figure 1	No	Yes	Figure Legends	Inconsistent	ADD_CALLOUT
+Figure	Figure 2	No	Yes	Figure Legends	Inconsistent	ADD_CALLOUT
+Figure	Figure 3	No	Yes	Figure Legends	Inconsistent	ADD_CALLOUT
+Figure	Figure 4	No	Yes	Figure Legends	Inconsistent	ADD_CALLOUT
+Figure	Figure 5	No	Yes	Figure Legends	Inconsistent	ADD_CALLOUT
+Table	Table S1	No	Yes	Supplementary Table Legends	Inconsistent	ADD_CALLOUT
+Table	Table S2	No	Yes	Supplementary Table Legends	Inconsistent	ADD_CALLOUT
+Table	Table S3	No	Yes	Supplementary Table Legends	Inconsistent	ADD_CALLOUT

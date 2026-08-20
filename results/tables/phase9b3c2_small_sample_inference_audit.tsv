@@ -1,0 +1,5 @@
+attribute	value	authorized_by_plan
+inference_method	statsmodels_asymptotic_z_locked_plan	True
+denominator_df	infinite	True
+effective_n	13 naive / 7 treated	True
+q_value_credibility	anti-conservative artifact	True

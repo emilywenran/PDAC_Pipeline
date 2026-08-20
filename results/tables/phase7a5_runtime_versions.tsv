@@ -1,0 +1,5 @@
+component	version	source
+R	R version 4.5.3 (2026-03-11)	local R runtime
+estimate	1.0.13	R-Forge official ESTIMATE source package
+data.table	1.18.2.1	R package
+ggplot2	4.0.3	R package

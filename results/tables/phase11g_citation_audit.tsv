@@ -1,0 +1,10 @@
+manuscript_section	citation_or_placeholder	nearby_claim	citation_status	required_action	source_file_if_available
+Introduction	[1]	Pancreatic ductal adenocarcinoma remains one of the most lethal solid malignancies...	UNRESOLVED	PROVIDE_REFERENCE	None
+Introduction	[2,3]	The poor prognosis reflects a combination of late-stage diagnosis... limits the efficacy of both conventional and immune-based therapies	UNRESOLVED	PROVIDE_REFERENCE	None
+Introduction	[4,5]	bulk transcriptomic studies have established at least two major molecular subtypes...	UNRESOLVED	PROVIDE_REFERENCE	None
+Introduction	[6–9]	Several reports have documented the presence of diverse microbial taxa...	UNRESOLVED	PROVIDE_REFERENCE	None
+Introduction	[10]	Gene-set enrichment frameworks enable the aggregation of signal...	UNRESOLVED	PROVIDE_REFERENCE	None
+Introduction	[11]	HALLMARK_PROTEIN_SECRETION captures a coordinated programme of vesicular transport... mechanistically plausible...	UNRESOLVED	PROVIDE_REFERENCE	None
+Introduction	[12,13]	Target prioritisation in oncology requires the integration of evidence across multiple analytical levels...	UNRESOLVED	PROVIDE_REFERENCE	None
+Results	[MISSING]	A subset of malignant cells in basal-enriched tumours co-expressed markers of both subtype programmes, consistent with published reports of transitional or hybrid states.	CITATION_GAP	PROVIDE_REFERENCE	None
+References	[Placeholder for References]	References placeholder	PLACEHOLDER	PROVIDE_REFERENCES_FILE	None

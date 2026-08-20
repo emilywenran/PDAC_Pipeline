@@ -1,0 +1,16 @@
+package	loaded	version
+data.table	TRUE	1.18.4
+limma	TRUE	3.66.0
+sandwich	TRUE	3.1.1
+lmtest	TRUE	0.9.40
+msigdbr	TRUE	26.1.0
+GSVA	TRUE	2.4.9
+progeny	TRUE	1.32.0
+dorothea	TRUE	1.22.0
+decoupleR	TRUE	2.16.0
+viper	TRUE	1.44.0
+WGCNA	TRUE	1.74
+fgsea	TRUE	1.36.2
+clusterProfiler	TRUE	4.18.4
+ReactomePA	TRUE	1.54.0
+ggplot2	TRUE	4.0.3

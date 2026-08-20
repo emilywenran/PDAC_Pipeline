@@ -1,0 +1,13 @@
+feature_name	feature_layer	coverage_fraction	locked_threshold	eligible_status	audit_status	notes
+HALLMARK_PROTEIN_SECRETION	Hallmark	0.8229	0.80	ELIGIBLE	PASS	Correctly analyzed.
+HALLMARK_SPERMATOGENESIS	Hallmark	0.3704	0.80	INSUFFICIENT_SPATIAL_DATA	FAIL	Incorrectly run in statistical models despite low coverage.
+MEblack	WGCNA_module	0.0444	0.80	INSUFFICIENT_SPATIAL_DATA	PASS	Correctly excluded from model fitting.
+MEblue	WGCNA_module	0.1029	0.80	INSUFFICIENT_SPATIAL_DATA	PASS	Correctly excluded from model fitting.
+MEgreen	WGCNA_module	0.1495	0.80	INSUFFICIENT_SPATIAL_DATA	PASS	Correctly excluded from model fitting.
+MEtan	WGCNA_module	0.1068	0.80	INSUFFICIENT_SPATIAL_DATA	PASS	Correctly excluded from model fitting.
+MEgreenyellow	WGCNA_module	0.0663	0.80	INSUFFICIENT_SPATIAL_DATA	PASS	Correctly excluded from model fitting.
+ELF1	TF_regulon	0.0000	0.80	INSUFFICIENT_SPATIAL_DATA	PASS	Correctly excluded; TF-symbol expression proxy was not used.
+MBD2	TF_regulon	0.0000	0.80	INSUFFICIENT_SPATIAL_DATA	PASS	Correctly excluded.
+ZBTB7A	TF_regulon	0.0000	0.80	INSUFFICIENT_SPATIAL_DATA	PASS	Correctly excluded.
+ZNF384	TF_regulon	0.0000	0.80	INSUFFICIENT_SPATIAL_DATA	PASS	Correctly excluded.
+ZNF740	TF_regulon	0.0000	0.80	INSUFFICIENT_SPATIAL_DATA	PASS	Correctly excluded.

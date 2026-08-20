@@ -1,0 +1,7 @@
+dataset_id	control_type	expected_iterations	expected_seed	actually_executed	output_nonmissing	outperformed_null	technically_inapplicable	independent_review_status	notes
+PENG_CRA001160	size-matched randomized modules	100	2026	FALSE	FALSE	NOT_ESTIMATED	TRUE	FAIL	Not executed in primary R script; WGCNA modules failed coverage threshold, making module-specific controls technically inapplicable but general implementation failed.
+PENG_CRA001160	expression-matched randomized modules	100	2026	FALSE	FALSE	NOT_ESTIMATED	TRUE	FAIL	Not executed in primary R script; WGCNA modules failed coverage threshold.
+PENG_CRA001160	unrelated MSigDB Hallmark pathways	5	2026	FALSE	FALSE	NOT_ESTIMATED	FALSE	FAIL	Not executed in primary R script; only target pathways were scored, no unrelated pathways computed.
+PENG_CRA001160	nonselected regulons	5	2026	FALSE	FALSE	NOT_ESTIMATED	FALSE	FAIL	Not executed in primary R script; no nonselected regulons scored.
+PENG_CRA001160	patient-label permutations	1000	2026	FALSE	FALSE	NOT_ESTIMATED	FALSE	FAIL	Not executed in primary R script; marked as TO_VERIFY placeholder.
+PENG_CRA001160	cell-type-label permutations	1000	2026	FALSE	FALSE	NOT_ESTIMATED	FALSE	FAIL	Not executed in primary R script; marked as TO_VERIFY placeholder.

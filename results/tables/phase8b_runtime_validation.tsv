@@ -1,0 +1,13 @@
+validation_check	observed	expected	passed	notes
+exactly_62_aligned_patients	62	62	TRUE	
+all_nine_primary_taxa_present_primary_clr	TRUE;TRUE;TRUE;TRUE;TRUE;TRUE;TRUE;TRUE;TRUE	all TRUE	TRUE	
+all_nine_primary_taxa_present_rclr	TRUE;TRUE;TRUE;TRUE;TRUE;TRUE;TRUE;TRUE;TRUE	all TRUE	TRUE	
+taxon_directions_match_phase7b	Azoarcus:negative;Candida:negative;Ensifer:positive;Cutibacterium:negative;Chryseobacterium:positive;Ochrobactrum:positive;Burkholderia:negative;Rhizobium:negative;Herbaspirillum:positive	loaded Phase 7B locked directions	TRUE	
+expression_microbiome_patient_order_aligned	PDAC_001;PDAC_002;PDAC_003;PDAC_004;PDAC_005;PDAC_006	identical patient_id order	TRUE	
+no_duplicated_patients	0	0	TRUE	
+no_duplicated_genes	0	0	TRUE	
+no_duplicated_taxa	0	0	TRUE	
+no_missing_or_infinite_primary_values	0	0	TRUE	
+required_phase8_packages_load_from_renv	data.table;limma;sandwich;lmtest;msigdbr;GSVA;progeny;dorothea;decoupleR;viper;WGCNA;fgsea;clusterProfiler;ReactomePA;ggplot2	data.table;limma;sandwich;lmtest;msigdbr;GSVA;progeny;dorothea;decoupleR;viper;WGCNA;fgsea;clusterProfiler;ReactomePA;ggplot2	TRUE	
+renv_project_library_active	~/thesis/PDAC/renv/library/macos/R-4.5/aarch64-apple-darwin20	~/thesis/PDAC/renv/library	TRUE	
+no_public_subtype_labels_used_for_feature_selection_or_model_tuning	script constants use primary taxa and unsupervised WGCNA parameters only	TRUE	TRUE	

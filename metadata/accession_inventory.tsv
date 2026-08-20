@@ -1,0 +1,5 @@
+accession	accession_type	parent_accession	repository	data_modality	assay_or_library_strategy	organism	sample_type	expected_sample_count	observed_sample_count	raw_data_available	processed_data_available	paired_end_status	platform	official_source	access_date	verification_status	notes
+GSE172356	GEO Series	NA	NCBI GEO	Transcriptomics	RNA-Seq	Homo sapiens	Frozen tumor	62	62	yes	yes	PAIRED	ILLUMINA	NCBI GEO	2026-06-30	VERIFIED	Host RNA-seq GEO Series containing processed expression matrix and links to SRA.
+PRJNA723013	BioProject	GSE172356	NCBI BioProject	Transcriptomics	RNA-Seq	Homo sapiens	Frozen tumor	62	62	yes	no	PAIRED	ILLUMINA	NCBI BioProject	2026-06-30	VERIFIED	Host RNA-seq BioProject associated with GSE172356.
+SRP315394	SRA Study	PRJNA723013	NCBI SRA	Transcriptomics	RNA-Seq	Homo sapiens	Frozen tumor	62	62	yes	no	PAIRED	ILLUMINA	NCBI SRA	2026-06-30	VERIFIED	Host RNA-seq SRA Study related to GSE172356.
+PRJNA719915	BioProject	NA	NCBI BioProject	Metagenomics	WGS	metagenome	Frozen tumor	62	62	yes	no	SINGLE	ILLUMINA	NCBI BioProject	2026-06-30	VERIFIED	Tumor microbiome shotgun metagenomic BioProject. No negative control sequencing data is present in SRA.

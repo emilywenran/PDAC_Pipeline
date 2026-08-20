@@ -1,0 +1,187 @@
+patient_id	original_public_subtype	method_name	predicted_subtype	basal_score	classical_score	probability_or_confidence	ambiguous_assignment	genes_expected	genes_used	notes
+PDAC_001	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_002	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_003	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_004	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_005	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_006	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_007	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_008	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_009	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_010	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_011	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_012	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_013	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_014	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_015	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_016	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_017	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_018	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_019	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_020	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_021	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_022	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_023	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_024	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_025	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_026	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_027	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_028	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_029	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_030	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_031	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_032	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_033	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_034	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_035	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_036	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_037	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_038	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_039	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_040	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_041	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_042	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_043	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_044	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_045	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_046	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_047	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_048	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_049	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_050	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_051	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_052	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_053	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_054	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_055	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_056	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_057	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_058	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_059	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_060	Basal	GSE172356_original	Basal	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_061	Hybrid	GSE172356_original	Hybrid	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_062	Classical	GSE172356_original	Classical	NA	NA	not_defined_by_locked_hierarchical_slice	False	100	94	Locked Pearson/average hierarchical clustering; subtype assigned by dendrogram order slice.
+PDAC_001	Classical	Moffitt	Classical	-0.17099452793530626	-0.0480050977478626	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_002	Classical	Moffitt	Basal	-0.2571931830756055	1.3398080687070775	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_003	Hybrid	Moffitt	Others	-0.4876896985028592	-0.47266551407623447	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_004	Hybrid	Moffitt	Others	-0.3011431224991044	-0.37239236222913324	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_005	Classical	Moffitt	Basal	-0.4528273695957603	0.7579852675067948	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_006	Classical	Moffitt	Others	-0.31376886870632587	0.14208542203502572	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_007	Classical	Moffitt	Classical	-0.2712906028552329	0.1601882109702304	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_008	Classical	Moffitt	Basal	-0.355518582762918	0.6399967544964563	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_009	Hybrid	Moffitt	Classical	-0.4886333861456202	-0.1303377948059413	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_010	Classical	Moffitt	Basal	-0.47057484902320645	0.7354276729659673	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_011	Classical	Moffitt	Basal	-0.15356288331219162	0.7075543933026863	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_012	Classical	Moffitt	Basal	-0.17330211817942906	0.589610706441911	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_013	Classical	Moffitt	Others	-0.3682446284857644	0.34517464059275793	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_014	Hybrid	Moffitt	Others	-0.3076905682473306	-0.36510918115017965	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_015	Hybrid	Moffitt	Others	-0.2291154344985041	-0.1782273145440102	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_016	Hybrid	Moffitt	Others	-0.48702965048877916	-0.5022705825201976	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_017	Classical	Moffitt	Classical	-0.219673997202143	0.060524541791916305	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_018	Hybrid	Moffitt	Others	-0.21151215350605054	-0.4293171805907686	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_019	Hybrid	Moffitt	Classical	-0.5033112956123508	-0.32282466281582806	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_020	Classical	Moffitt	Others	-0.5050295983904491	0.1807303759281572	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_021	Classical	Moffitt	Basal	-0.05163292051654589	2.0468397860937335	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_022	Hybrid	Moffitt	Classical	-0.29542237050099135	0.5889014387239435	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_023	Hybrid	Moffitt	Basal	-0.5445053930650328	-0.5356062666760021	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_024	Hybrid	Moffitt	Classical	-0.38396003648490246	-0.5893977294748481	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_025	Basal	Moffitt	Others	-0.1689364176544904	-0.5900518183995225	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_026	Hybrid	Moffitt	Basal	-0.4774134260507293	-0.5615433624959225	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_027	Classical	Moffitt	Basal	-0.07020484065949381	0.7031710406332644	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_028	Classical	Moffitt	Basal	-0.3784335026809654	1.8158051770762529	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_029	Classical	Moffitt	Classical	0.45992194461324803	0.9823717042622881	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_030	Hybrid	Moffitt	Others	-0.5083521434202228	-0.5288333864010288	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_031	Classical	Moffitt	Others	-0.026359363977883316	-0.04240673340737392	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_032	Hybrid	Moffitt	Classical	0.07080363617352715	-0.52712763959742	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_033	Hybrid	Moffitt	Classical	-0.3424814097055295	-0.5362695378247635	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_034	Basal	Moffitt	Classical	0.34892131579673924	-0.6434341549640383	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_035	Hybrid	Moffitt	Others	-0.44226670218482883	-0.44553061663496185	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_036	Hybrid	Moffitt	Others	-0.4942407659132204	-0.3883174932147782	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_037	Hybrid	Moffitt	Classical	-0.43407032398606576	-0.04936076199160884	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_038	Classical	Moffitt	Basal	-0.4206191010387175	0.8440291901885988	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_039	Hybrid	Moffitt	Basal	-0.480257131523786	-0.13600887334162698	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_040	Classical	Moffitt	Basal	-0.21459560334500485	0.805510313998705	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_041	Classical	Moffitt	Classical	0.007304308732378732	0.3266111664044352	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_042	Basal	Moffitt	Classical	0.23743987417884074	0.004237923725672042	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_043	Basal	Moffitt	Classical	1.873612131889954	-0.53929344676927	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_044	Basal	Moffitt	Classical	0.23705292445959883	-0.5312721710491087	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_045	Basal	Moffitt	Classical	0.8800982055152818	-0.14244047849323482	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_046	Hybrid	Moffitt	Others	-0.32367543250346625	-0.46061792303570065	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_047	Basal	Moffitt	Classical	2.5277709144577423	-0.33995006833861807	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_048	Hybrid	Moffitt	Basal	-0.49203175741703964	-0.5912072407662962	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_049	Basal	Moffitt	Classical	1.0672515448975228	-0.4698514699739176	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_050	Basal	Moffitt	Classical	1.3197656071179773	-0.24376378619864325	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_051	Basal	Moffitt	Classical	0.12063329455773546	-0.49003046636503655	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_052	Hybrid	Moffitt	Others	-0.5120096803146668	-0.3347835068906822	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_053	Basal	Moffitt	Classical	0.14432783538984872	0.2309363544469041	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_054	Basal	Moffitt	Classical	0.8833191432151378	-0.41932595582116106	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_055	Basal	Moffitt	Classical	1.183571277705086	0.10347449057862158	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_056	Basal	Moffitt	Classical	-0.13952260444914755	-0.5732725599934916	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_057	Basal	Moffitt	Classical	0.9078379420617461	-0.19077086137586266	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_058	Basal	Moffitt	Others	0.5573580810391872	-0.38916026797453157	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_059	Classical	Moffitt	Basal	-0.0836218935216186	0.4356376058396401	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_060	Basal	Moffitt	Classical	0.5899400016857118	-0.44308284610847404	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_061	Hybrid	Moffitt	Others	0.530524078922815	-0.276119417983744	NA	True	50	49	Locked Moffitt dendrogram slice assigned to Others; not forced into basal/classical.
+PDAC_062	Classical	Moffitt	Basal	0.06526527752920247	0.2833682853307849	NA	False	50	49	Locked Moffitt dendrogram slice assignment.
+PDAC_001	Classical	PurIST	Classical	-2.7239999999999998	0.9384280627980626	0.06157193720193745	False	16	16	Strong Classical
+PDAC_002	Classical	PurIST	Classical	-6.33	0.998221136226214	0.0017788637737859738	False	16	16	Strong Classical
+PDAC_003	Hybrid	PurIST	Classical	-3.2400000000000007	0.9623121094913941	0.0376878905086059	False	16	16	Strong Classical
+PDAC_004	Hybrid	PurIST	Classical	-3.653	0.9747412642599339	0.025258735740066096	False	16	16	Strong Classical
+PDAC_005	Classical	PurIST	Classical	-6.33	0.998221136226214	0.0017788637737859738	False	16	16	Strong Classical
+PDAC_006	Classical	PurIST	Classical	-3.7250000000000005	0.9764546509396596	0.02354534906034041	False	16	16	Strong Classical
+PDAC_007	Classical	PurIST	Classical	-4.827	0.9920531416373958	0.007946858362604267	False	16	16	Strong Classical
+PDAC_008	Classical	PurIST	Classical	-5.756	0.9968462364047205	0.00315376359527949	False	16	16	Strong Classical
+PDAC_009	Hybrid	PurIST	Classical	-1.4260000000000006	0.8062773042294289	0.1937226957705711	False	16	16	Lean/Likely Classical
+PDAC_010	Classical	PurIST	Classical	-6.815	0.998904009317345	0.0010959906826550011	False	16	16	Strong Classical
+PDAC_011	Classical	PurIST	Classical	-2.107	0.8915816823630521	0.10841831763694787	False	16	16	Lean/Likely Classical
+PDAC_012	Classical	PurIST	Classical	-1.802	0.8583922194349403	0.1416077805650597	False	16	16	Lean/Likely Classical
+PDAC_013	Classical	PurIST	Classical	-6.815	0.998904009317345	0.0010959906826550011	False	16	16	Strong Classical
+PDAC_014	Hybrid	PurIST	Classical	-3.7620000000000005	0.9772904865173597	0.022709513482640234	False	16	16	Strong Classical
+PDAC_015	Hybrid	PurIST	Classical	-1.2460000000000004	0.7766066740682169	0.22339332593178307	False	16	16	Lean/Likely Classical
+PDAC_016	Hybrid	PurIST	Classical	-5.271	0.9948877993538633	0.005112200646136754	False	16	16	Strong Classical
+PDAC_017	Classical	PurIST	Classical	-5.271	0.9948877993538633	0.005112200646136754	False	16	16	Strong Classical
+PDAC_018	Hybrid	PurIST	Basal-like	0.6049999999999996	0.3532006074420144	0.6467993925579856	False	16	16	Lean/Likely Basal-like
+PDAC_019	Hybrid	PurIST	Classical	-5.886	0.9972296295051497	0.0027703704948503125	False	16	16	Strong Classical
+PDAC_020	Classical	PurIST	Classical	-6.815	0.998904009317345	0.0010959906826550011	False	16	16	Strong Classical
+PDAC_021	Classical	PurIST	Classical	-4.138	0.9842958267549976	0.015704173245002343	False	16	16	Strong Classical
+PDAC_022	Hybrid	PurIST	Classical	-3.653	0.9747412642599339	0.025258735740066096	False	16	16	Strong Classical
+PDAC_023	Hybrid	PurIST	Classical	-1.802	0.8583922194349403	0.1416077805650597	False	16	16	Lean/Likely Classical
+PDAC_024	Hybrid	PurIST	Classical	-4.342	0.987156617385373	0.012843382614627051	False	16	16	Strong Classical
+PDAC_025	Basal	PurIST	Classical	-0.7300000000000001	0.6748052725823135	0.32519472741768646	False	16	16	Lean/Likely Classical
+PDAC_026	Hybrid	PurIST	Classical	-5.271	0.9948877993538633	0.005112200646136754	False	16	16	Strong Classical
+PDAC_027	Classical	PurIST	Classical	-0.6930000000000002	0.6666339590733066	0.3333660409266935	False	16	16	Lean/Likely Classical
+PDAC_028	Classical	PurIST	Classical	-6.815	0.998904009317345	0.0010959906826550011	False	16	16	Strong Classical
+PDAC_029	Classical	PurIST	Classical	-2.3480000000000003	0.9127751255680273	0.08722487443197265	False	16	16	Strong Classical
+PDAC_030	Hybrid	PurIST	Classical	-5.271	0.9948877993538633	0.005112200646136754	False	16	16	Strong Classical
+PDAC_031	Classical	PurIST	Classical	-3.2770000000000006	0.9636312916605969	0.03636870833940304	False	16	16	Strong Classical
+PDAC_032	Hybrid	PurIST	Basal-like	1.3009999999999997	0.2139967667008026	0.7860032332991974	False	16	16	Lean/Likely Basal-like
+PDAC_033	Hybrid	PurIST	Classical	-1.6220000000000003	0.8350707695939025	0.16492923040609753	False	16	16	Lean/Likely Classical
+PDAC_034	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_035	Hybrid	PurIST	Classical	-3.2400000000000007	0.9623121094913941	0.0376878905086059	False	16	16	Strong Classical
+PDAC_036	Hybrid	PurIST	Classical	-5.271	0.9948877993538633	0.005112200646136754	False	16	16	Strong Classical
+PDAC_037	Hybrid	PurIST	Classical	-5.271	0.9948877993538633	0.005112200646136754	False	16	16	Strong Classical
+PDAC_038	Classical	PurIST	Classical	-5.271	0.9948877993538633	0.005112200646136754	False	16	16	Strong Classical
+PDAC_039	Hybrid	PurIST	Classical	-5.756	0.9968462364047205	0.00315376359527949	False	16	16	Strong Classical
+PDAC_040	Classical	PurIST	Classical	-5.756	0.9968462364047205	0.00315376359527949	False	16	16	Strong Classical
+PDAC_041	Classical	PurIST	Classical	-4.827	0.9920531416373958	0.007946858362604267	False	16	16	Strong Classical
+PDAC_042	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_043	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_044	Basal	PurIST	Basal-like	2.2229999999999994	0.09770401110847005	0.90229598889153	False	16	16	Strong Basal-like
+PDAC_045	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_046	Hybrid	PurIST	Classical	-0.3170000000000005	0.5785929556795222	0.4214070443204778	False	16	16	Lean/Likely Classical
+PDAC_047	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_048	Hybrid	PurIST	Classical	-1.2460000000000004	0.7766066740682169	0.22339332593178307	False	16	16	Lean/Likely Classical
+PDAC_049	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_050	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_051	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_052	Hybrid	PurIST	Classical	-4.342	0.987156617385373	0.012843382614627051	False	16	16	Strong Classical
+PDAC_053	Basal	PurIST	Basal-like	2.2229999999999994	0.09770401110847005	0.90229598889153	False	16	16	Strong Basal-like
+PDAC_054	Basal	PurIST	Basal-like	2.2229999999999994	0.09770401110847005	0.90229598889153	False	16	16	Strong Basal-like
+PDAC_055	Basal	PurIST	Basal-like	2.2229999999999994	0.09770401110847005	0.90229598889153	False	16	16	Strong Basal-like
+PDAC_056	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_057	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_058	Basal	PurIST	Basal-like	2.2229999999999994	0.09770401110847005	0.90229598889153	False	16	16	Strong Basal-like
+PDAC_059	Classical	PurIST	Classical	-0.6930000000000002	0.6666339590733066	0.3333660409266935	False	16	16	Lean/Likely Classical
+PDAC_060	Basal	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_061	Hybrid	PurIST	Basal-like	4.728	0.008766608519021002	0.991233391480979	False	16	16	Strong Basal-like
+PDAC_062	Classical	PurIST	Classical	-2.107	0.8915816823630521	0.10841831763694787	False	16	16	Lean/Likely Classical

@@ -1,0 +1,12 @@
+validation_item	expected_value	observed_value	status	notes
+canonical_dataset_id	PENG_CRA001160	PENG_CRA001160	PASS	Exactly one Peng inventory row required.
+accession	CRA001160	CRA001160	PASS	Peng cohort must not be labelled GSE111672.
+BioProject	PRJCA001063	PRJCA001063	PASS	Correct GSA BioProject required.
+publication	Peng et al. 2019	Peng et al. (2019)	PASS	Publication identity check.
+cohort_size	24 untreated PDAC tumors and 11 control pancreases	24 PDAC; 11 controls	PASS	Patient counts must match corrected Phase 9A records.
+gse111672_alias_check	no Peng row labelled GSE111672	none	PASS	GSE111672 is Moncada, not Peng.
+phase9b2_primary_execution_set	PENG_CRA001160 only	PENG_CRA001160	PASS	Primary execution must be exactly Peng.
+unauthorized_layer2_primary_inclusion	none	none	PASS	Supplementary cohorts require separate authorization.
+parameter_inventory_status	ACTIVE_PRIMARY	ACTIVE_PRIMARY	PASS	Peng parameter row must be active primary.
+previous_phase9b2_biological_outputs	none before this execution	none	PASS	Prior stopped attempts must not contribute biological outputs.
+raw_file_absence	no FASTQ/BAM/SRA/CRAM	none	PASS	Phase 9B2-primary must use processed matrices only.

@@ -1,0 +1,8 @@
+term_or_pattern	context	allowed_or_problematic	reason	required_action
+caus	"No causal relationship", "non-causal", "causal direction cannot be inferred"	ALLOWED	Explicitly denying causality	None required
+microbial causality	"microbial causality" in Abstract and Limitations (denying it)	ALLOWED	Explicitly denying microbial causality	None required
+localis	"microbial localisation...was not determined"	ALLOWED	Explicitly denying localisation	None required
+interact	"No physical interaction"	ALLOWED	Explicitly denying physical interaction	None required
+Ochrobactrum	Described with "associated", "co-occurrence"	ALLOWED	Appropriate associative wording	None required
+established therapeutic target	"No candidate should be described as an established therapeutic target"	ALLOWED	Explicitly denying established target status	None required
+rescued	No matches found	ALLOWED	Absence of prohibited concept	None required

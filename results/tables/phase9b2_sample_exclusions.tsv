@@ -1,0 +1,2 @@
+dataset_id	sample_id	patient_id	exclusion_reason	notes
+PENG_CRA001160	NONE	NONE	No sample excluded during source-object QC.	Source processed object retained; no arbitrary broad cell-level QC thresholds applied.

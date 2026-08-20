@@ -1,0 +1,6 @@
+dataset_id	module_name	expected_genes	detected_genes	coverage_fraction	transfer_method	eligibility
+PENG_CRA001160	MEblack	270	68	0.251851851851852	locked discovery gene membership; no WGCNA reconstruction	INELIGIBLE_LOW_COVERAGE
+PENG_CRA001160	MEblue	1691	582	0.344175044352454	locked discovery gene membership; no WGCNA reconstruction	INELIGIBLE_LOW_COVERAGE
+PENG_CRA001160	MEgreen	515	199	0.386407766990291	locked discovery gene membership; no WGCNA reconstruction	INELIGIBLE_LOW_COVERAGE
+PENG_CRA001160	MEtan	103	50	0.485436893203884	locked discovery gene membership; no WGCNA reconstruction	INELIGIBLE_LOW_COVERAGE
+PENG_CRA001160	MEgreenyellow	166	53	0.319277108433735	locked discovery gene membership; no WGCNA reconstruction	INELIGIBLE_LOW_COVERAGE

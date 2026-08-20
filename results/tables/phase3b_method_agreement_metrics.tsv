@@ -1,0 +1,57 @@
+method_name	analysis_set	comparison_scope	metric	class_label	value	n_samples	notes
+GSE172356_original	full_62	all	class_count_public	ALL	62.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	exact_agreement	ALL	1.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	balanced_accuracy	ALL	1.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	cohens_kappa	ALL	1.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	adjusted_rand_index	ALL	1.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	normalized_mutual_information	ALL	1.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	public_class_count	Basal	17.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	predicted_class_count	Basal	17.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	per_class_sensitivity	Basal	1.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	per_class_precision	Basal	1.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	public_class_count	Hybrid	23.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	predicted_class_count	Hybrid	23.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	per_class_sensitivity	Hybrid	1.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	per_class_precision	Hybrid	1.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	public_class_count	Classical	22.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	predicted_class_count	Classical	22.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	per_class_sensitivity	Classical	1.0	62	Primary locked reproduction.
+GSE172356_original	full_62	all	per_class_precision	Classical	1.0	62	Primary locked reproduction.
+Moffitt	full_62	public_basal_classical_only	class_count_public	ALL	33.0	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	exact_agreement	ALL	0.15151515151515152	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	balanced_accuracy	ALL	0.1388888888888889	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	cohens_kappa	ALL	-0.7303370786516852	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	adjusted_rand_index	ALL	0.46987951807228917	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	normalized_mutual_information	ALL	0.5122521786407086	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	public_class_count	Basal	15.0	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	predicted_class_count	Basal	13.0	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	per_class_sensitivity	Basal	0.0	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	per_class_precision	Basal	0.0	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	public_class_count	Classical	18.0	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	predicted_class_count	Classical	20.0	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	per_class_sensitivity	Classical	0.2777777777777778	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_basal_classical_only	per_class_precision	Classical	0.25	33	Binary comparison excludes public Hybrid samples.
+Moffitt	full_62	public_hybrid_behavior	hybrid_predicted_distribution	Basal	4.0	23	Public Hybrid samples reported separately, not counted as automatic binary errors.
+Moffitt	full_62	public_hybrid_behavior	hybrid_predicted_distribution	Classical	7.0	23	Public Hybrid samples reported separately, not counted as automatic binary errors.
+Moffitt	full_62	public_hybrid_behavior	hybrid_predicted_distribution	Others	12.0	23	Public Hybrid samples reported separately, not counted as automatic binary errors.
+PurIST	full_62	public_basal_classical_only	class_count_public	ALL	39.0	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	exact_agreement	ALL	0.9743589743589743	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	balanced_accuracy	ALL	0.9705882352941176	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	cohens_kappa	ALL	0.9475100942126514	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	adjusted_rand_index	ALL	0.8974424347496703	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	normalized_mutual_information	ALL	0.8509457078688776	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	public_class_count	Basal-like	17.0	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	predicted_class_count	Basal-like	16.0	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	per_class_sensitivity	Basal-like	0.9411764705882353	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	per_class_precision	Basal-like	1.0	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	public_class_count	Classical	22.0	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	predicted_class_count	Classical	23.0	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	per_class_sensitivity	Classical	1.0	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_basal_classical_only	per_class_precision	Classical	0.9565217391304348	39	Binary comparison excludes public Hybrid samples.
+PurIST	full_62	public_hybrid_behavior	hybrid_predicted_distribution	Basal-like	3.0	23	Public Hybrid samples reported separately, not counted as automatic binary errors.
+PurIST	full_62	public_hybrid_behavior	hybrid_predicted_distribution	Classical	20.0	23	Public Hybrid samples reported separately, not counted as automatic binary errors.
+GSE172356_original	full_62	sensitivity	primary_exact_agreement	ALL	1.0	62	Reference locked primary run.
+GSE172356_original	exclude_phase2b_outlier_candidates	sensitivity	primary_exact_agreement	ALL	1.0	58	Excluded YX16135T, YX16158T, YX16194T, and YX16224T; slice sizes adjusted to 17/19/22 because all four excluded samples are in the locked Hybrid slice.
+GSE172356_original	log2_median_centering_stress_test	sensitivity	primary_exact_agreement	ALL	0.5806451612903226	62	Locked sensitivity: median subtraction and row scaling applied to log2(count+1) matrix.
+GSE172356_original	alternative_missingness_gene_median_imputed	sensitivity	primary_exact_agreement	ALL	1.0	62	Approved Phase 3A stress test; no active primary signature gene differs from the complete-observation matrix.
+GSE172356_original	alternative_missingness_zero_filled	sensitivity	primary_exact_agreement	ALL	1.0	62	Approved Phase 3A stress test; the 6 unavailable signature genes are absent from the source matrix rather than NA cells.

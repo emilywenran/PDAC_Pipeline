@@ -1,0 +1,7 @@
+cohort	model	reported_beta	reported_q	match
+naive	Model A	0.047949	2.95e-52	True
+naive	Model B	0.003517	0.405	True
+naive	Model C	0.002433	0.462	True
+treated	Model A	0.047854	2.55e-21	True
+treated	Model B	-0.001665	0.782	True
+treated	Model C			True

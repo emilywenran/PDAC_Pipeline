@@ -1,0 +1,2 @@
+comparison	primary_beta	treated_model_b_beta	moncada_positive_sections	moncada_total_sections	synthesis	readiness_decision
+Hwang naive primary vs Hwang treated sensitivity	0.0035173428471542132	-0.0016652247622575749	1	6	coefficient-level descriptive synthesis; no matrix pooling	READY_FOR_PHASE9B3C_INDEPENDENT_REVIEW

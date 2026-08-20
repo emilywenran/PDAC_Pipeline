@@ -1,0 +1,2 @@
+feature	category	justification	correct
+HALLMARK_PROTEIN_SECRETION	PARTIAL_SPATIAL_SUPPORT	Malignant compartment enrichment exists, but Moffitt50 axis association is null.	True

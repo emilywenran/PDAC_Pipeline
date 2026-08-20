@@ -1,0 +1,6 @@
+item	required_for_submission_yes_no	current_status	required_action	priority
+Journal Specific Formatting	yes	TO_BE_CONFIRMED	Format to target journal style when selected	High
+Author Signatures / Consent	yes	TO_BE_CONFIRMED	Obtain signatures from all authors	High
+Conflict of Interest Form	yes	TO_BE_CONFIRMED	Complete and sign COI forms	High
+Funding Statements	yes	TO_BE_CONFIRMED	Verify and add exact grant numbers	Medium
+Raw Data Upload / GEO Accession	yes	TO_BE_CONFIRMED	Upload fastq/matrices and include accession number in manuscript	High

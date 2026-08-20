@@ -1,0 +1,4 @@
+dataset_id	planned_patients	actual_patients	planned_sections	actual_sections	planned_units	actual_units	discrepancy_reason
+HWANG_GSE202051_NAIVE	18	13	18	13	256 segments	373 segments (127 ROIs)	Two untreated patients (MGH2498, MGH010) are missing from the raw WTA count matrix. Segments are higher than expected because stroma is split into CAF and Immune segments (3 segments per ROI for 119 ROIs, 2 for 8 ROIs) instead of a single pooled stroma segment.
+HWANG_GSE202051_TREATED	25	7	25	7	352 segments	197 segments (67 ROIs)	The plan incorrectly expected 25 treated patients, but the raw GEO supplementary metadata contains only 7 treated patients. Segments are higher per ROI due to stroma splitting into CAF and Immune.
+MONCADA_GSE111672	2	2	6	6	2248 spots	3119 spots	The planned spot count was an underestimation or based on pre-filtered data; the actual dataset maps all 3119 spots across the 6 tissue sections.

@@ -1,0 +1,11 @@
+validation_item	comparison_basis	status	notes
+"official_data_provenance"	"file manifest and phase9b2 inventory checksums"	"PRESERVED_VERIFIED"	"PENG_CRA001160 only; no raw FASTQ/BAM; no GSE111672 aliasing."
+"cell_and_patient_counts"	"cohort QC and prepare summary"	"PRESERVED_VERIFIED"	"57,530 cells; 24 tumors; 11 controls; 35 individuals."
+"metadata_alignment"	"matrix header and all_celltype alignment from prepare script"	"PRESERVED_VERIFIED"	"No new discrepancy detected in Phase 9B2R."
+"major_cell_type_annotation_audit"	"Phase 9B2C annotation audit PASS"	"PRESERVED_VERIFIED"	"Unchanged broad-class annotations retained."
+"malignant_cell_classification"	"Phase 9B2C malignant-cell audit PASS"	"PRESERVED_VERIFIED"	"Ductal type 2 malignant; ductal type 1 ambiguous retained."
+"patient_aware_pseudobulk"	"Phase 9B2C pseudobulk audit PASS"	"PRESERVED_VERIFIED"	"Patient-cell-type pseudobulk with >=20 cell threshold retained."
+"Moffitt50_scoring"	"recomputed from pseudobulk log2 CPM"	"PRESERVED_VERIFIED"	"Dependent downstream associations rerun for eligible features."
+"Hallmark_scoring"	"recomputed with decoupleR::run_gsva full MSigDB Hallmark"	"PRESERVED_VERIFIED"	"Hallmark scores rerun; modules excluded from formal scoring."
+"tumor_control_context"	"descriptive-only rerun"	"PRESERVED_VERIFIED"	"Control pancreases remain contextual only."
+"composition_covariates"	"single-fraction patient models rerun"	"PRESERVED_VERIFIED"	"Composition sensitivity rerun for eligible features only."
