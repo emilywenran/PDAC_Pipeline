@@ -9,10 +9,10 @@ abstract: >
   coordinated through a human-supervised, LLM-assisted multi-agent
   bioinformatics workflow.
 authors:
-  - given-names: "Emily"
-    family-names: "[PLACEHOLDER: family name]"
+  - given-names: "Wenran"
+    family-names: "Zhou"
+    alias: "Emily"
     email: "wenran.emily@gmail.com"
-    orcid: "[PLACEHOLDER: ORCID iD, e.g. https://orcid.org/0000-0000-0000-0000]"
 version: "0.1.0"
 date-released: "2026-08-20"
 license: MIT
@@ -29,6 +29,7 @@ preferred-citation:
   type: article
   title: "Integrative Multi-Omic Analysis Reveals Intratumoural Microbiome–Host Transcriptional Programs in Pancreatic Ductal Adenocarcinoma via a Human-Supervised AI-Assisted Workflow"
   authors:
-    - given-names: "Emily"
-      family-names: "[PLACEHOLDER: family name]"
-  status: "[PLACEHOLDER: update once submitted/published — journal, year, volume, DOI]"
+    - given-names: "Wenran"
+      family-names: "Zhou"
+      alias: "Emily"
+  status: "Manuscript prepared; not yet submitted to a journal. Update this field with journal, year, volume, and DOI once submitted/published."
