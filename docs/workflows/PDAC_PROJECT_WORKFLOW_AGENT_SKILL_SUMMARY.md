@@ -1,5 +1,9 @@
 # PDAC Project Workflow Summary: Agent and K-Dense Skill Usage Record
 
+## 📌 Record update on 2026-10-30
+
+This is the historical summary of saved phase records. Recovered instructions are now available in [WORKFLOW_INDEX.md](../../WORKFLOW_INDEX.md) and [PHASE_PROMPTS.txt](../../PHASE_PROMPTS.txt). These add instruction-level provenance without converting requested tasks into executed analyses or independently verifying model/version mappings, human review, PASS labels or target validity. Consult the [current prompt-record explanation](PROMPT_AND_AGENT_EXECUTION_LOG.md) when interpreting the older table below.
+
 ## 1. Overall Project Workflow
 
 This project is an LLM-assisted bioinformatics workflow built around multi-omic evidence integration for PDAC. It covers data-source provenance verification, bulk / single-cell / spatial / microbiome analyses, cross-layer synthesis, target prioritization, manuscript drafting, reference auditing, submission-package assembly, and final QA.

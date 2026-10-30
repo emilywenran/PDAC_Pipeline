@@ -1,23 +1,23 @@
-# Prompt and Executing-Agent Record — Findings
+# Prompt and Executing-Agent Record
 
-## Conclusion First
+## 📌 Current status on 2026-10-30
 
-**No verbatim user prompts are stored anywhere in this project.** A full-project search covered the following locations, and none contained any prompt/session/chat/transcript files:
-- Project-wide `find` for `*prompt*`, `*session*`, `*chat*`, `*conversation*`, `*transcript*` (the only hits were unrelated files bundled with R packages, e.g. `renv/library/.../Rcpp/prompt`)
-- `.cache/`, `tmp/`, `08_logs/` (only matplotlib font caches and environment-audit logs — no prompt content)
-- `.agents/` (only the K-Dense `statistical-analysis` skill files themselves — no interaction records)
-- Full-text search for the keywords `"user prompt" / "user instruction" / "prompt:"` etc. (no hits, aside from unrelated text in an R package's `NEWS.md`)
-- Every `.json` file in the project (all are font caches, GDC file listings, `prepare_summary` outputs, etc. — technical artifacts, not interaction records)
+Recovered phase prompts are now available in [PHASE_PROMPTS.txt](../../PHASE_PROMPTS.txt), with navigation and source-line links in [WORKFLOW_INDEX.md](../../WORKFLOW_INDEX.md). The archive contains 47 indexed instructions from Phase 1A through Phase 11A, including correction and closure instructions. This supersedes the initial packaging audit's finding that no verbatim prompt files were available in the workspace at that time.
 
-As a result, **the original text of the prompts you sent at each step cannot be reconstructed.**
+The archive was supplied retrospectively from ChatGPT conversations and converted from RTF into UTF-8 plain text, as described in the supplied index. The public prompt file is byte-identical to that supplied text. Its SHA-256 is `555d6f417989233f3b7064612d4c3efaddfb486630af3b9522b59e4428cf9dd8`.
 
-The closest available substitute is two kinds of **pre-existing metadata**, both written after the fact by the agents themselves (not your original input):
-1. **`00_admin/SKILL_USAGE_LOG.tsv`**: each row has an `agent` field (only two role names appear: `Antigravity` / `Codex`) and `task_description`/`notes` fields (a short agent-authored summary of the work performed).
-2. **Git commit history** (52 commits): each commit message summarizes that change; again, authored by the agent, not the user's original prompt.
+The archive preserves requested instructions, including expected outputs and requested review decisions. Those instructions are not evidence that the requested work completed or passed review. The source-line ranges are navigation aids, not execution timestamps. Local development paths are retained, and no missing prompt text has been reconstructed. Exact model versions and human review must be supported separately by project records.
 
-The table below reorganizes those two sources chronologically as "phase → executing agent → recorded task description → associated commit" — the best available substitute given that no prompt records exist.
+## 📚 How the records relate
 
----
+| Record | Interpretation |
+| --- | --- |
+| Recovered prompts and workflow index | Original instructions as supplied after retrospective recovery; incomplete coverage is documented in the index |
+| Skill-use log | Agent-authored metadata about recorded skill invocation, including unavailable skills |
+| Scripts, outputs and review reports | Saved implementation and execution/review evidence; verify each claim against the relevant artifact |
+| Original workspace commit table below | Historical analysis-workspace chronology assembled during the initial packaging audit; not a transcript or the commit history of this curated GitHub repository |
+
+The following table is retained as the earlier execution-metadata summary. Its commit hashes refer to the originating analysis workspace, whose Git history is distinct from the curated public-release repository. A recovered role label does not independently confirm the executing model or final outcome.
 
 ## Phase-Level Execution Record (not original prompts — agent-authored summaries only)
 
@@ -80,10 +80,6 @@ The table below reorganizes those two sources chronologically as "phase → exec
 
 ---
 
-## Recommendation
+## 📝 Remaining record gaps
 
-If you want to be able to trace the **actual prompt text** for every phase going forward, the current workflow does not do this — none of the agent roles (Antigravity, Codex, or any other collaborating model) preserve the instruction text they were given; they only record a "results summary" after the fact (stored in `SKILL_USAGE_LOG.tsv` / commit messages / `PROJECT_STATUS.md`). If you want this going forward, you have two options:
-1. Before dispatching each task to an agent, manually append the prompt text to a new file (e.g., `00_admin/PROMPT_LOG.md`), formatted as `date | phase | sender | verbatim prompt`;
-2. Or require the executing agent to write the "raw instruction received" verbatim into a new `raw_prompt` column added to `SKILL_USAGE_LOG.tsv` (the table does not currently have this column).
-
-Either approach requires actively adding a new recording mechanism going forward — the original prompt text cannot be recovered from existing data.
+The supplied index identifies missing or incompletely recovered instructions, including initial Phase 10B/10C and later manuscript or supplementary-analysis work. Do not fill those gaps with reconstructed text described as verbatim. For future work, save the instruction when issued and link it to the resulting script, output and review record. Retrospective recovery of the present archive does not establish that every earlier interaction was recorded contemporaneously.

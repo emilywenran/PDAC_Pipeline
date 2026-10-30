@@ -1,84 +1,91 @@
-# PDAC Microbiome–Transcriptome Plasticity — GitHub Release Package
+# PDAC Pipeline — Human-Supervised AI-Assisted Multi-Omic Research
 
-This folder is a curated subset of the working project (`~/thesis/PDAC/`), selected for public release on GitHub. The original workspace was not modified; everything here is a copy. Selection criteria are documented in `docs/workflows/GITHUB_PUBLICATION_PACKAGE_PLAN.md`. **The submission package is intentionally excluded**, per project instructions.
+This repository contains analysis code, validators, dataset metadata, method specifications, review reports and saved outputs for an integrative study of pancreatic ductal adenocarcinoma (PDAC). The study examines host transcriptional states and tumour-associated microbial profiles through a human-supervised, LLM-assisted workflow. Primary data sources are GEO **GSE172356** and NCBI BioProject **PRJNA719915**.
 
-## Project Summary
+## 📚 Start with the workflow records
 
-- Primary data sources: GEO `GSE172356` (host expression), NCBI BioProject `PRJNA719915` (intratumoral microbiome)
-- Research goal: determine whether PDAC basal-like / classical / hybrid molecular subtypes are stable discrete states or positions on a continuous transcriptional gradient, and identify microbiome features robustly associated with host subtype state and candidate therapeutic vulnerabilities
-- Methodological approach: an **LLM-assisted bioinformatics workflow** built on a "pre-registered method lock → agent execution → independent agent review → programmatic validator" cycle. Every design decision is logged in `docs/planning/DECISION_LOG.md`.
+| Resource | What it provides |
+| --- | --- |
+| [WORKFLOW_INDEX.md](WORKFLOW_INDEX.md) | Navigation through 47 recovered instructions, from Phase 1A through Phase 11A, including correction and review loops |
+| [PHASE_PROMPTS.txt](PHASE_PROMPTS.txt) | The supplied UTF-8 prompt archive, preserved byte-for-byte, with 12,299 LF-delimited lines |
+| [Prompt and executing-agent record](docs/workflows/PROMPT_AND_AGENT_EXECUTION_LOG.md) | The distinction between recovered instructions, agent-authored summaries and execution evidence; the original workspace commit table |
+| [Agent and skill summary](docs/workflows/PDAC_PROJECT_WORKFLOW_AGENT_SKILL_SUMMARY.md) | Historical phase roles, skill-use records and documented gaps |
+| [Decision log](docs/planning/DECISION_LOG.md) | Recorded analytical decisions and changes |
+| [Release update](docs/workflows/RELEASE_UPDATE_2026-10-30.md) | Scope, provenance and checks for this documentation update |
 
-## Directory Structure
+The prompt archive was supplied after retrospective recovery from ChatGPT conversations and conversion from RTF to UTF-8 text, as described in the index. Its SHA-256 is:
 
-```
-github_release/
-├── README.md                    # this file
-├── LICENSE                       # MIT
-├── CITATION.cff                  # citation metadata
-├── config.yaml                   # consolidated locked analysis parameters (primary runs)
-├── environment.yml               # conda environment (Python + R)
-├── requirements.txt              # Python dependencies only
-├── run_pipeline.py                # top-level CLI: lists phases/scripts and dispatches to them
-├── demo/
-│   └── run_demo.py                # self-contained one-click demo (synthetic data, no downloads)
-├── skills-lock.json               # K-Dense skill source lock (statistical-analysis)
-├── docs/
-│   ├── planning/                  # project charter, hypotheses, analysis plan, decision log, risk register
-│   ├── methods/                   # per-phase method SOPs / protocols
-│   ├── workflows/                 # workflow overview, agent/skill usage summary, GitHub publication plan, prompt-record audit
-│   └── references/                # bibliography and source audit for external validation datasets
-├── ai_usage/
-│   ├── SKILL_USAGE_LOG.tsv        # per-phase K-Dense skill invocation log (including load failures / unavailable skills)
-│   └── SKILLS_INVENTORY.tsv       # inventory of skills used in the project
-├── project_status/
-│   └── PROJECT_STATUS.md          # project status and completed-task log
-├── metadata/                      # all accession / sample / parameter inventory tables from 01_metadata
-├── reference_data/
-│   └── PDAC_subtype_signatures/   # locked subtype signatures (Moffitt / PurIST / GSE172356 original)
-├── analysis_reports/              # every method-lock / execution-result / independent-review report from 04_analysis, by phase
-├── scripts/
-│   ├── python/                    # analysis, summary, validator, and test scripts
-│   ├── R/                         # R analysis and validation scripts
-│   └── shell/                     # environment audit scripts
-├── results/
-│   ├── tables/                    # per-phase result and audit tables (299 files)
-│   ├── figures/                   # result figures (PDF, 114 files)
-│   └── reports/                   # initialization report
-└── environment/                   # renv.lock, R environment info, software inventory (for R environment reproduction)
+```text
+555d6f417989233f3b7064612d4c3efaddfb486630af3b9522b59e4428cf9dd8
 ```
 
-## Before Using This Package
+Source-line links in the index refer to this exact file. Original wording and local development paths are retained for provenance. Paths inside prompts describe the original workspace; they are not installation instructions for this repository.
 
-1. **License and citation**: `LICENSE` (MIT) and `CITATION.cff` are included at the repository root. `CITATION.cff` will need its ORCID and publication-status fields updated once the manuscript is submitted.
-2. **Hardcoded local paths inside scripts were left untouched**: roughly 40 scripts in `scripts/python/` and `scripts/R/` contain absolute paths from the original development machine (of the form `/Users/emily/thesis/PDAC/...`). To avoid silently changing script behavior, this release does **not** edit script contents — files were copied as-is. Anyone reproducing the analysis will need to adjust these paths manually (or run scripts from a checkout that mirrors the original project layout — see `run_pipeline.py` below). Documentation, log, and metadata files (non-code) already have local paths sanitized to `~/`.
-3. **What's new in this release layer** (added on top of the existing project files, without modifying any existing script's internal logic):
-   - `run_pipeline.py`: a lightweight CLI that lists all phases/scripts with descriptions and dispatches to the underlying phase script via subprocess. It does **not** rewrite any of the 92 existing analysis scripts into standalone CLI tools — those still expect to run from a full project checkout with `02_data/`, `03_processed/`, etc. present (which are intentionally excluded from this release; see below).
-   - `config.yaml`: consolidates the primary/locked analysis parameters (random seeds, PERMANOVA permutations, CLR pseudocount, PurIST coefficients, FDR method, etc.) extracted directly from the `*_parameter_inventory.tsv` files in `metadata/`. Sensitivity-analysis parameter grids remain in the original TSVs; `config.yaml` is a human-readable summary of the primary configuration, not a replacement for them.
-   - `environment.yml` / `requirements.txt`: consolidate the actual Python and R packages imported across `scripts/`, so the environment can be rebuilt with `conda env create -f environment.yml`.
-   - `demo/run_demo.py`: a genuinely self-contained, one-command demo. It applies the real locked PurIST classifier coefficients (from `reference_data/PDAC_subtype_signatures/PurIST_signatures.tsv`) to a small **synthetic, seeded toy expression matrix** (explicitly labeled as synthetic — not real patient data, since the real GSE172356 matrix is not redistributed in this release). It exists to verify the environment is set up correctly and to illustrate the classifier logic end-to-end in a few seconds, not to reproduce the full validated pipeline.
-4. **Not included**: raw/large sequencing data (`02_data/raw`, `02_data/external`), R package caches (`renv/library`, `renv/cache`), model binary objects (`05_results/models/`), local runtime caches (`.cache/`, `tmp/`, `__pycache__/`), `08_submission/` (submission package, excluded per current instructions), and private review artifacts (`.docx` annotations, archive folders, redundant zip files). See `docs/workflows/GITHUB_PUBLICATION_PACKAGE_PLAN.md`, Section 5, for the full rationale.
-5. **Data/Code Availability and AI-usage disclosure**: the manuscript's Data Availability, Code Availability, and "Use of AI-Assisted Technologies" sections are filled in and reference this repository (`https://github.com/emilywenran/PDAC_Pipeline`). See `docs/workflows/GITHUB_PUBLICATION_PACKAGE_PLAN.md`, Section 7, for the original recommended wording this was based on.
-6. **Prompt records**: no verbatim user prompts are stored anywhere in the project. `docs/workflows/PROMPT_AND_AGENT_EXECUTION_LOG.md` documents that finding and the closest available substitute (commit history + agent usage logs).
+Recovered prompts document **requested work**. They do not by themselves prove successful execution, validate model identities, establish independent human review, or demonstrate human-versus-AI performance. Consult the saved scripts, outputs and review reports for those questions. The archive is incomplete: the index identifies missing initial Phase 10B/10C instructions and gaps in later manuscript or supplementary-analysis instructions. Missing text has not been reconstructed.
 
-## Quick Start
+## 🔄 Workflow and interpretation
+
+The recorded workflow combines written method specifications, execution, AI-assisted review, correction and programmatic checks under human oversight. Method locks are project records; they are not a claim of registration in an external preregistration registry.
+
+```mermaid
+flowchart LR
+    accTitle: Human supervised research workflow
+    accDescr: Written methods guide execution, review and correction, with programmatic checks and human decisions throughout.
+    method_lock["Written method specification"] --> execution["Analysis execution"]
+    execution --> review["AI-assisted review and checks"]
+    review --> correction["Correction when required"]
+    correction --> execution
+    review --> human_decision["Human assessment and interpretation"]
+    human_decision --> record["Saved outputs and decision record"]
+```
+
+The biological analyses cover subtype reproduction and stability, a continuous basal–classical axis, community- and genus-level microbial associations, host programme scoring, external bulk transcriptomics, patient-aware single-cell analyses, spatial analyses and exploratory target prioritisation. Archived plans, failed attempts and corrected outputs have distinct roles. A planned analysis or a historical PASS label should not be read as confirmation of every biological claim in later manuscript versions.
+
+The labels `Antigravity` and `Codex` identify environments or roles in the supplied records. Exact underlying model versions are reported only where documented; role labels alone do not verify a model/version mapping. AI-assisted review remains distinct from human author responsibility.
+
+## 📁 Repository contents
+
+| Path | Contents |
+| --- | --- |
+| `PHASE_PROMPTS.txt`, `WORKFLOW_INDEX.md` | Recovered instructions and their navigable index |
+| `scripts/python/`, `scripts/R/`, `scripts/shell/` | Existing analysis, validation and utility code |
+| `analysis_reports/` | Historical method locks, execution reports and review/correction reports, organised by phase |
+| `results/tables/`, `results/figures/`, `results/reports/` | Saved analytical and audit outputs |
+| `metadata/` | Accessions, sample crosswalks and parameter inventories |
+| `reference_data/PDAC_subtype_signatures/` | Locked subtype signatures used by the analyses and demo |
+| `docs/` | Planning, methods, workflow documentation and reference records |
+| `ai_usage/` | Skill-use log and inventory, including unavailable or failed loads |
+| `project_status/` | Historical project-status records |
+| `environment/`, `environment.yml`, `requirements.txt` | Saved environment records and dependency specifications |
+| `run_pipeline.py` | Phase/script discovery and dispatch CLI |
+| `config.yaml` | Summary of primary locked parameters |
+| `demo/run_demo.py` | Small synthetic-data demonstration of the PurIST scoring formula |
+| `LICENSE`, `CITATION.cff` | Software licence and citation metadata |
+
+## ⚙️ Quick start
 
 ```bash
-# 1. Build the environment
 conda env create -f environment.yml
 conda activate pdac-github-release
 
-# 2. Run the self-contained demo (no data download required, runs in seconds)
+# Synthetic demonstration; no patient data or downloads required.
 python demo/run_demo.py
 
-# 3. List available analysis phases and their scripts
+# Inspect the existing phase entry points.
 python run_pipeline.py --list
-
-# 4. Show details for a specific phase (script path, language, description)
 python run_pipeline.py --describe phase3b
 ```
 
-## Suggested Next Steps
+The demo uses seeded synthetic expression values with the saved PurIST coefficients. It demonstrates the formula and basic environment setup; its classifications are not patient results or a reproduction of the study.
 
-1. Review the contents of this folder to confirm nothing sensitive was inadvertently included.
-2. Fill in the remaining `CITATION.cff` fields (ORCID, publication status) once available.
-3. If you intend to re-run the full pipeline (not just the demo), restore the original project's data layout (`02_data/`, `03_processed/`) and update the hardcoded paths in `scripts/` as needed.
+### Running the original analyses
+
+`run_pipeline.py` is a thin dispatcher, not a portable workflow engine. It does not refactor the underlying scripts or make them consume `config.yaml`. The configuration file summarises the primary settings; individual parameter inventories and scripts remain the implementation record.
+
+The curated release maps original directories into public-facing names: `01_metadata` → `metadata`, `04_analysis` → `analysis_reports`, `05_results` → `results`, `06_scripts` → `scripts`, and `09_docs` → `docs`. Some scripts still use the original directory layout and absolute development paths such as `/Users/emily/thesis/PDAC/`. Full reruns require restoring the expected layout and input data, adjusting those paths, and resolving the documented environment requirements. The dispatcher does not perform those steps automatically. Source code has not been silently rewritten as part of this documentation update.
+
+Raw/large sequencing and processed expression matrices, model binaries, R package caches, local runtime caches, private review documents and submission packages are excluded. Some historical inventory paths consequently point to inputs or products maintained outside this curated release. See the [publication package plan](docs/workflows/GITHUB_PUBLICATION_PACKAGE_PLAN.md) for the original selection policy and the [release update](docs/workflows/RELEASE_UPDATE_2026-10-30.md) for the present scope.
+
+## 🔗 Licence and citation
+
+Use [LICENSE](LICENSE) for the software licence and [CITATION.cff](CITATION.cff) for citation metadata. Dataset accessions identify the public source data; users should follow each source's reuse terms. Software citation metadata retains the original release version and date. Update manuscript publication metadata when a publication is available.

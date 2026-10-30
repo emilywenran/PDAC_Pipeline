@@ -1,5 +1,10 @@
 # GitHub Publication Package Plan — PDAC Microbiome–Transcriptome Project
 
+## 📌 Publication update on 2026-10-30
+
+This document records the original package-selection plan and historical workflow summary. Recovered instructions have since been added as [PHASE_PROMPTS.txt](../../PHASE_PROMPTS.txt) and [WORKFLOW_INDEX.md](../../WORKFLOW_INDEX.md), superseding the original prompt-availability gap. The source archive is retrospective and incomplete; it does not independently verify execution, model versions, human review or prospective registration. References below to preregistration describe internal method locks, not an external registry record. Use the [current README](../../README.md) and [release update](RELEASE_UPDATE_2026-10-30.md) for the present public-package scope. The exclusion of submission packages remains in effect.
+
+
 **Purpose**: plan what to include when publishing this project on GitHub as an example of an LLM-assisted bioinformatics workflow — what to keep, what to leave out, the recommended repository layout, and what to disclose in the manuscript. This is a planning document only: it does not change any scientific result, the manuscript, or admin records, and it does not perform any git operations.
 
 **Sources reviewed**: `00_admin/PROJECT_STATUS.md`, `00_admin/SKILL_USAGE_LOG.tsv` (116 rows), `01_metadata/file_manifest.tsv`, `09_docs/planning/DECISION_LOG.md` (decisions D-01 through D-56+), `04_analysis/`, `05_results/`, `06_scripts/`, `08_submission/`, `.gitignore`, the git log, and the pre-existing `09_docs/workflows/PDAC_PROJECT_WORKFLOW_AGENT_SKILL_SUMMARY.md` (Sections 1–3 below condense that document; see it for full detail).
@@ -48,7 +53,7 @@ Additionally, per the existing summary document (not present as structured `SKIL
 **Not documented in the project records** (should be disclosed honestly in the GitHub README rather than glossed over):
 - The executing agent for Phase 1B and Phase 3B was not recorded.
 - The specific scope of Claude / ChatGPT involvement, prompt content, and interaction records were never systematically archived — only scattered references in individual audit reports.
-- The exact prompts/instructions used to hand off tasks between agents were never archived (only execution results and the `SKILL_USAGE_LOG.tsv` summaries exist).
+- At initial packaging, no handoff prompt archive was available in the workspace. A recovered, incomplete archive was added on 2026-10-30; see the update above.
 
 ---
 
